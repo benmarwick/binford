@@ -1,0 +1,21 @@
+Package: binford
+Type: Package
+Title: Binford's hunter-gatherer data
+Version: 0.1.0
+Authors@R: c(
+    person("Marwick", "Ben", email = "benmarwick@gmail.com", role = c("aut", "cre")),
+    person("Johnson", "Amber", email = "ajohnson@truman.edu", role = "aut"),
+    person("White", "Doug", email = "drwhite@uci.edu", role = "aut"),
+    person("Eff", "E. Anthon", email = "Anthon.Eff@mtsu.edu", role = "aut")
+    )
+Description: Binford's hunter-gatherer data includes more than 200 variables
+    coding aspects of hunter-gatherer subsistence, mobility, and social organization
+    for 339 ethnographically documented groups of hunter-gatherers.
+License: GPL-3
+Depends:
+    R (>= 3.1.0)
+Suggests:
+    dplyr
+URL: http://github.com/benmarwick/binford
+LazyData: TRUE
+RoxygenNote: 5.0.1

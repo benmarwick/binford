@@ -1,0 +1,507 @@
+"","NOTmissing","class","nUniqVals","FNOTmissing","Fclass","FnUniqVals","variable","ds","description","type","usevb","source","comments","topcomments","sectbrk"
+"seq339",339,"numeric",339,339,"numeric",339,"seq339","LRB","Sequence number","categorical","auxiliary","96",NA,NA,NA
+"groupno",339,"numeric",339,339,"numeric",339,"groupno","LRB","Group number","categorical","auxiliary","96",NA,NA,NA
+"name",339,"character",339,339,"factor",339,"name","LRB","Version 1 of society name","categorical","auxiliary","96",NA,NA,NA
+"year",339,"numeric",59,339,"numeric",59,"year","LRB","Year of ethnography","categorical","auxiliary","96",NA,NA,NA
+"ethref",235,"character",197,235,"factor",197,"ethref","LRB","Ethnographies used as source of forager data. The pinpointing date is in parentheses.","categorical","auxiliary","96",NA,NA,NA
+"eanumber",207,"numeric",207,207,"numeric",207,"eanumber","LRB","Ethnographic Atlas society number (manual coding)","categorical","auxiliary","96",NA,NA,NA
+"eafolk",212,"character",209,212,"factor",209,"eafolk","LRB","Ethnographic Atlas society name (manual coding)","categorical","auxiliary","96",NA,NA,NA
+"wnainumb",84,"numeric",84,84,"numeric",84,"wnainumb","LRB","Western North American Indian ID number (manual coding)","categorical","auxiliary","96",NA,NA,NA
+"wnaisociety",84,"character",84,84,"factor",84,"wnaisociety","LRB","Western North American Indian society name (manual coding)","categorical","auxiliary","96",NA,NA,NA
+"badlangiso",339,"numeric",2,339,"factor",2,"badlangiso","LRB","Flag: possibly inaccurate language classification and code","categorical","auxiliary","96",NA,NA,NA
+"wldsec",339,"character",5,339,"factor",5,"wldsec","LRB","World sector","categorical","data","96",NA,NA,NA
+"secno",339,"character",10,339,"factor",10,"secno","LRB","Detailed world sector (North America subdivided)","categorical","data","96",NA,NA,NA
+"wc.area",339,"character",10,339,"factor",10,"wc.area","LRB","Culture area","categorical","data","96",NA,NA,NA
+"wcont",124,"character",5,124,"factor",5,"wcont","LRB","Continent of society","categorical","data","96",NA,NA,NA
+"wlocation",339,"character",67,339,"factor",67,"wlocation","LRB","Location of society","categorical","auxiliary","96",NA,NA,NA
+"longitude",339,"numeric",319,339,"numeric",319,"longitude","LRB","Longitude (decimal degrees)","ordinal","data","96",NA,NA,NA
+"latitude",339,"numeric",324,339,"numeric",324,"latitude","LRB","Latitude (decimal degrees)","ordinal","data","96",NA,NA,NA
+"vegclass",339,"numeric",12,339,"factor",12,"vegclass","LRB","Classification by vegetation type--gross classification","categorical","data","96",NA,NA,NA
+"vegnu",339,"numeric",24,339,"factor",24,"vegnu","LRB","Classification by vegetation type ; (Table: 5.01); (Binford 2001:117)","categorical","data","96",NA,NA,NA
+"soil",339,"character",10,339,"factor",10,"soil","LRB","Primary soil type characteristic of a group's range; (Table: 5.01); (Binford 2001:117)","categorical","data","96",NA,NA,NA
+"setting",339,"character",4,339,"factor",4,"setting","LRB","Drainage type for land area; (Table: 6.01); (Binford 2001:168)","categorical","data","96",NA,NA,NA
+"dposit",339,"numeric",225,339,"numeric",83,"dposit","LRB","Position in drainage system (distance from territory to headwaters of drainage system)/(length of drainage system) ; (Equation: headwat/drain); (Binford 2001:168)","ordinal","data","96",NA,NA,NA
+"headwat",339,"numeric",127,339,"numeric",127,"headwat","LRB","Distance from water source to the headwaters of the drainage (measured along the stream)","ordinal","data","96",NA,NA,NA
+"drain",339,"numeric",161,339,"numeric",161,"drain","LRB","Total length (in miles) of drainage system.","ordinal","data","96",NA,NA,NA
+"h10",339,"numeric",192,339,"numeric",192,"h10","LRB","Measure of altitudinal maximum at a circle with a 10 mile radius.","ordinal","data","96",NA,NA,NA
+"h25",339,"numeric",207,339,"numeric",207,"h25","LRB","Measure of altitudinal maximum at a circle with a 25 mile radius.","ordinal","data","96",NA,NA,NA
+"h50",339,"numeric",211,339,"numeric",211,"h50","LRB","Measure of altitudinal maximum at a circle with a 50 mile radius.","ordinal","data","96",NA,NA,NA
+"l10",339,"numeric",146,339,"numeric",146,"l10","LRB","Measure of altitudinal minimum at a circle with a 10 mile radius.","ordinal","data","96",NA,NA,NA
+"l25",339,"numeric",154,339,"numeric",154,"l25","LRB","Measure of altitudinal minimum at a circle with a 25 mile radius.","ordinal","data","96",NA,NA,NA
+"l50",339,"numeric",133,339,"numeric",133,"l50","LRB","Measure of altitudinal minimum at a circle with a 50 mile radius.","ordinal","data","96",NA,NA,NA
+"maxrange",339,"numeric",265,339,"numeric",265,"maxrange","LRB","Difference between the lowest recorded point of elevation and the highest recorded point of elevation","ordinal","data","96",NA,NA,NA
+"latgroup",339,"numeric",2,339,"factor",2,"latgroup","LRB","Binary indicator of proximity to equator","ordinal","data","96",NA,NA,NA
+"et",339,"numeric",336,339,"numeric",282,"et","LRB","Effective temperature; (Equation: 4.01); (Table: 4.01); (Binford 2001:58)","ordinal","data","96",NA,NA,NA
+"cmat",339,"numeric",336,339,"numeric",320,"cmat","LRB","Mean annual temperature (degrees C); (Table: 4.01); (Binford 2001:58)","ordinal","data","96",NA,NA,NA
+"mcm",339,"numeric",314,339,"numeric",314,"mcm","LRB","Mean temperature of coldest month (degrees C); (Table: 4.01); (Binford 2001:59)","ordinal","data","96",NA,NA,NA
+"mwm",339,"numeric",275,339,"numeric",276,"mwm","LRB","Mean temperature of warmest month (degrees C); (Table: 4.01); (Binford 2001:59)","ordinal","data","96",NA,NA,NA
+"temp",339,"numeric",336,339,"numeric",319,"temp","LRB","Temperateness; (Equation: 4.02); (Binford 2001:59)","ordinal","data","96",NA,NA,NA
+"mtemp",339,"numeric",336,339,"numeric",326,"mtemp","LRB","Evenness in temperature across seasons; (Equation: 4.03); (Binford 2001:68)","ordinal","data","96",NA,NA,NA
+"clim",339,"numeric",7,339,"factor",7,"clim","LRB","Ordination of the Earth's climates by effective temperature; (Table: 4.02); (Binford 2001:70)","ordinal","data","96",NA,NA,NA
+"crr",339,"numeric",339,339,"numeric",339,"crr","LRB","Annual rainfall (mm); (Table: 4.01); (Binford 2001:70)","ordinal","data","96",NA,NA,NA
+"rhigh",339,"numeric",329,339,"numeric",329,"rhigh","LRB","Mean rainfall of wettest month (mm); (Table: 4.01); (Binford 2001:70)","ordinal","data","96",NA,NA,NA
+"rlow",339,"numeric",253,339,"numeric",245,"rlow","LRB","Mean rainfall of driest month (mm); (Table: 4.01); (Binford 2001:70)","ordinal","data","96",NA,NA,NA
+"reven",339,"numeric",339,339,"numeric",183,"reven","LRB","Unevenness in rainfall across seasons; (Equation: 4.04); (Binford 2001:70)","ordinal","data","96",NA,NA,NA
+"mrain",339,"numeric",338,339,"numeric",292,"mrain","LRB","Evenness in rainfall across seasons (higher values => more even); (Equation: 4.06); (Binford 2001:72)","ordinal","data","96",NA,NA,NA
+"avwat",339,"numeric",8,339,"factor",8,"avwat","LRB","Moisture ordination of climates; (Table: 4.05); (Binford 2001:79)","ordinal","data","96",NA,NA,NA
+"sdtemp",339,"numeric",337,339,"numeric",293,"sdtemp","LRB","Standard deviation of mean monthly temperature; (Binford 2001:70)","ordinal","data","96",NA,NA,NA
+"sdrain",339,"numeric",339,339,"numeric",328,"sdrain","LRB","Standard deviation of mean monthly rainfall; (Binford 2001:70)","ordinal","data","96",NA,NA,NA
+"rrcorr",339,"numeric",15,339,"numeric",15,"rrcorr","LRB","Difference between month with greatest rainfall and that with highest temp. Using the warmest month as a reference point, the number of months (or parts thereof), positive or negative, that separate the wettest month from the warmest month; (Binford 2001:71)","ordinal","data","96",NA,NA,NA
+"rrcorr2",339,"numeric",15,339,"numeric",15,"rrcorr2","LRB","Positive scale for rrcorr: add 4.5 to rrcorr; if any subsequent values are negative, they are added to 12; (Table: 4.01); (Binford 2001:71)","ordinal","data","96",NA,NA,NA
+"rrcorr3",339,"numeric",15,339,"numeric",15,"rrcorr3","LRB","Like rrcorr2, except that in environments with a 12-month growing season, the value is set to 4.5 ; (Binford 2001:71)","ordinal","data","96",NA,NA,NA
+"season",339,"numeric",4,339,"factor",4,"season","LRB","Season with greatest rainfall (derived from rrcorr2); (Binford 2001:71)","categorical","data","96",NA,NA,NA
+"medstab",339,"numeric",336,339,"numeric",139,"medstab","LRB","Mediterranean climate indicator (higher values => more Mediterranean); (Equation: 4.05); (Binford 2001:72)","ordinal","data","96",NA,NA,NA
+"growc",339,"numeric",13,339,"numeric",13,"growc","LRB","Effective growing season (number of months in growing season); (Table: 4.07); (Binford 2001:73)","ordinal","data","96",NA,NA,NA
+"pet",339,"numeric",339,339,"numeric",338,"pet","LRB","Potential evapotranspiration; (Table: 4.07); (Binford 2001:75)","ordinal","data","96",NA,NA,NA
+"ae",339,"numeric",339,339,"numeric",339,"ae","LRB","Actual evapotranspiration; (Table: 4.07); (Binford 2001:74)","ordinal","data","96",NA,NA,NA
+"watret",339,"numeric",303,339,"numeric",303,"watret","LRB","Quantity of water actually present in the soil; (Table: 4.07); (Binford 2001:75)","ordinal","data","96",NA,NA,NA
+"watd",339,"numeric",314,339,"numeric",314,"watd","LRB","Water deficit; (Table: 4.07); (Binford 2001:75)","ordinal","data","96",NA,NA,NA
+"snowac",339,"numeric",141,339,"numeric",140,"snowac","LRB","Snow accumulation; (Table: 4.07); (Binford 2001:75)","ordinal","data","96",NA,NA,NA
+"ptoae",339,"numeric",314,339,"numeric",181,"ptoae","LRB","Potential evapotranspiration relative to actual evapotranspiration (low values have higher plant growth potential); (Equation: pet/(1+ae)); (Binford 2001:78)","ordinal","data","96",NA,NA,NA
+"hirx",339,"numeric",339,339,"numeric",210,"hirx","LRB","Potential evapotranspiration relative to annual rainfall. Values less than 1 tend to be forested, greater than 1 arid, and around 1 savannas and steppes.; (Equation: pet/ccr); (Binford 2001:78)","ordinal","data","96",NA,NA,NA
+"ptowatd",339,"numeric",339,339,"numeric",239,"ptowatd","LRB","Potential evapotranspiration relative to water deficit (high values imply high plant growth potential); (Equation: pet/(1+watd)); (Binford 2001:78)","ordinal","data","96",NA,NA,NA
+"watdgrc",339,"numeric",13,339,"numeric",13,"watdgrc","LRB","Number of months during growing season in which water deficit occurs; (Binford 2001:79)","ordinal","data","96",NA,NA,NA
+"defper",339,"numeric",35,339,"numeric",38,"defper","LRB","Percentage of growing season with a water deficit; (Equation: 4.08); (Table: 4.07); (Binford 2001:79)","ordinal","data","96",NA,NA,NA
+"perwret",339,"numeric",35,339,"numeric",35,"perwret","LRB","Percentage of growing season with water stored in soil; (Equation: 4.07); (Binford 2001:79)","ordinal","data","96",NA,NA,NA
+"perwltg",339,"numeric",34,339,"numeric",34,"perwltg","LRB","Percentage of growing season for which water available is below the wilting point for plants; (Equation: 4.09); (Binford 2001:79)","ordinal","data","96",NA,NA,NA
+"wltgrc",339,"numeric",13,339,"numeric",13,"wltgrc","LRB","Number of months plants would wilt because of water deficit; (Table: 4.07); (Binford 2001:79)","ordinal","data","96",NA,NA,NA
+"nagp",339,"numeric",339,339,"numeric",339,"nagp","LRB","Net above-ground productivity: new cell life added to a habitat as a result of photosynthesis and growth (g/sqm/yr); (Equation: 4.10); (Table: 4.07); (Binford 2001:79)","ordinal","data","96",NA,NA,NA
+"lnagp",339,"numeric",339,339,"numeric",157,"lnagp","LRB","Log 10 of nagp; (Binford 2001:79)","ordinal","data","96",NA,NA,NA
+"bio5",339,"numeric",339,339,"numeric",339,"bio5","LRB","Primary biomass; (Table: 4.07); (Binford 2001:85)","ordinal","data","96",NA,NA,NA
+"lbio5",339,"numeric",339,339,"numeric",174,"lbio5","LRB","Log 10 of bio5; (Binford 2001:85)","ordinal","data","96",NA,NA,NA
+"bar5",339,"numeric",339,339,"numeric",325,"bar5","LRB","Biomass accumulation ratio; (Equation: 4.15); (Table: 4.07); (Binford 2001:85)","ordinal","data","96",NA,NA,NA
+"lexprey",339,"numeric",339,339,"numeric",158,"lexprey","LRB","(Log of) Secondary animal biomass; (Binford 2001:109)","ordinal","data","96",NA,NA,NA
+"sucstab2",339,"numeric",339,339,"numeric",229,"sucstab2","LRB","Modified successional stability (a measure of likelihood of vegetation-clearing fires); (Binford 2001:171)","ordinal","data","96",NA,NA,NA
+"tlpop",339,"numeric",249,339,"numeric",249,"tlpop","LRB","Total number of persons to whom the ethnographic description applies; (Table: 5.01); (Binford 2001:117)","ordinal","data","96",NA,NA,NA
+"area",339,"numeric",295,339,"numeric",295,"area","LRB","Ethnographers' estimate of total land area occupied by the group (100 sqkm); (Table: 5.01); (Binford 2001:117)","ordinal","data","96",NA,NA,NA
+"density",339,"numeric",302,339,"numeric",302,"density","LRB","Population density (==tlpop/area); (Table: 5.01); (Binford 2001:117)","ordinal","data","96",NA,NA,NA
+"group1",227,"numeric",78,227,"numeric",79,"group1","LRB","Size of smallest group that regularly cooperates for subsistence; smallest self-sufficient group; (Table: 5.01 & 8.01); (Binford 2001:117)","ordinal","data","96",NA,NA,NA
+"group2",297,"numeric",124,297,"numeric",123,"group2","LRB","The mean size of the consumer group that regularly camps together during the most aggregated phase of the yearly economic cycles; (Table: 5.01 & 8.01); (Binford 2001:117)","ordinal","data","96",NA,NA,NA
+"group3",216,"numeric",114,216,"numeric",114,"group3","LRB","The mean size of multigroup encampments that may aggregate periodically, but not necessarily annually, for immediate subsistence-related activities; (Table: 5.01 & 8.01); (Binford 2001:117)","ordinal","data","96",NA,NA,NA
+"lden",339,"numeric",216,339,"numeric",191,"lden","LRB","Log 10 of density; (Binford 2001:117)","ordinal","data","96",NA,NA,NA
+"lnpop",339,"numeric",248,339,"numeric",248,"lnpop","LRB","Natural log of tlpop;","ordinal","data","96",NA,NA,NA
+"diasz",339,"numeric",255,339,"numeric",255,"diasz","LRB","Number of people in dialect group","ordinal","data","96",NA,NA,NA
+"subpop",339,"character",2,339,"factor",2,"subpop","LRB","Designates normal (n) vs exceptional (x) cases; (Table: 5.01); (Binford 2001:117)","ordinal","data","96",NA,NA,NA
+"wsubpop",339,"character",2,339,"factor",2,"wsubpop","LRB","Flags societies that are suspected to be not pure foragers (Binford 2001:117)","ordinal","data","96",NA,NA,NA
+"hunting",339,"numeric",48,339,"numeric",48,"hunting","LRB","Percent dependence on terrestrial animals; (Table: 5.01); (Binford 2001:117)","ordinal","data","96",NA,NA,NA
+"gatherin",339,"numeric",39,339,"numeric",39,"gatherin","LRB","Percent dependence on terrestrial plants; (Table: 5.01); (Binford 2001:117)","ordinal","data","96",NA,NA,NA
+"fishing",339,"numeric",60,339,"numeric",60,"fishing","LRB","Percent dependence on aquatic organisms ; (Table: 5.01); (Binford 2001:117)","ordinal","data","96",NA,NA,NA
+"subsp",339,"numeric",3,339,"factor",3,"subsp","LRB","Which food type (hunted, gathered, fished) provides majority of nutritional intake; (Table: 5.01); (Binford 2001:117)","categorical","data","96",NA,NA,NA
+"store",337,"numeric",3,337,"factor",3,"store","LRB","Dependence upon storage; (Binford 2001:388)","ordinal","data","96",NA,NA,NA
+"subsp.1",339,"character",3,339,"factor",3,"subsp.1","LRB","Primary source of food (character version of subsp); (Binford 2001:388)","categorical","data","96",NA,NA,NA
+"qtstor",337,"numeric",4,337,"factor",4,"qtstor","LRB","Quantity of food stored  ; (Binford 2001:389)","ordinal","data","96",NA,NA,NA
+"subdiv2",339,"numeric",92,339,"numeric",92,"subdiv2","LRB","Subsistence diversity; (Equation: 100-stddev(""hunting"",""gatherin"",""fishing"") ); (Binford 2001:403,fn2)","ordinal","data","96",NA,NA,NA
+"sudivord",339,"numeric",5,339,"factor",5,"sudivord","LRB","Ordinal simplification (5 categories) of subdiv2.; (Binford 2001:404)","ordinal","data","96",NA,NA,NA
+"noantrap",41,"numeric",17,41,"numeric",17,"noantrap","LRB","The number of (types of) animal traps documented for the group.","ordinal","data","96",NA,NA,NA
+"noantrapgrp",41,"numeric",4,41,"factor",4,"noantrapgrp","LRB","Ordinal simplification of noantrap","ordinal","data","96",NA,NA,NA
+"hunt",339,"numeric",6,339,"factor",6,"hunt","LRB","Degree to which males conduct hunting, relative to females.","ordinal","data","96",NA,NA,NA
+"gath",339,"numeric",6,339,"factor",6,"gath","LRB","Degree to which males conduct gathering, relative to females.","ordinal","data","96",NA,NA,NA
+"fish",339,"numeric",7,339,"factor",7,"fish","LRB","Degree to which males conduct fishing, relative to females.","ordinal","data","96",NA,NA,NA
+"mdivlab",333,"numeric",105,333,"numeric",105,"mdivlab","LRB","Percentage of total diet derived from male labor; (Binford 2001:280)","ordinal","data","96",NA,NA,NA
+"housex",339,"numeric",5,339,"factor",5,"housex","LRB","The sexual division of labor in the construction of houses.  Does not address the procurement of materials, only construction of the highest investment houses.","ordinal","data","96",NA,NA,NA
+"forcol",339,"numeric",3,339,"factor",3,"forcol","LRB","Code for forager-collector distinction; (Binford 2001:304)","categorical","data","96",NA,NA,NA
+"grppat",339,"numeric",2,339,"factor",2,"grppat","LRB","Degree of mobility; (Table: 5.01); (Binford 2001:117)","ordinal","data","96",NA,NA,NA
+"nomov",261,"numeric",39,261,"numeric",39,"nomov","LRB","Total number of annual moves in residence of a household unit; (Table: 5.01 & 8.04); (Binford 2001:117)","ordinal","data","96",NA,NA,NA
+"dismov",236,"numeric",110,236,"numeric",110,"dismov","LRB","Total distance (in miles) residence moved in a year (sum of all moves); (Table: 5.01 & 8.04); (Binford 2001:117)","ordinal","data","96",NA,NA,NA
+"dspmov",236,"numeric",147,236,"numeric",147,"dspmov","LRB","Distance per move (in miles) (dspmov=dismov/nomov); (Binford 2001:117)","ordinal","data","96",NA,NA,NA
+"kspmov",255,"numeric",143,255,"numeric",143,"kspmov","LRB","Averge distance per move (in km) (kspmov=kmov/nomov); (Binford 2001:117)","ordinal","data","96",NA,NA,NA
+"lkmov",261,"numeric",92,261,"numeric",92,"lkmov","LRB","Log 10 of kmov; (Binford 2001:117)","ordinal","data","96",NA,NA,NA
+"lkspmov",255,"numeric",85,255,"numeric",85,"lkspmov","LRB","Log 10 of kspmov; (Binford 2001:117)","ordinal","data","96",NA,NA,NA
+"kmov",261,"numeric",111,261,"numeric",111,"kmov","LRB","Summed distance (in km) moved per year by average household (kmov=dismov/.6214); (Binford 2001:117)","ordinal","data","96",NA,NA,NA
+"mhs",232,"numeric",184,232,"numeric",184,"mhs","LRB","Mean household size ; (Table: 8.08); (Binford 2001:147)","ordinal","data","96",NA,NA,NA
+"famsz",136,"numeric",102,136,"numeric",102,"famsz","LRB","Mean family size (total group size divided by number of married men); (Table: 8.08); (Binford 2001:286)","ordinal","data","96",NA,NA,NA
+"hhtype",115,"character",21,115,"factor",21,"hhtype","LRB","Household type; (Table: 8.08); (Binford 2001: 297)","categorical","data","96",NA,NA,NA
+"commun",335,"numeric",5,335,"factor",5,"commun","LRB","Community organization. The prevalence of local endogamy, agamy, & exogamy coded together with the presence or absence of localized kin groups. Can be interpreted as ordinal measure of endogamy; (Table: 9.01); (Binford 2001:320)","categorical","data","96",NA,NA,NA
+"comstfun",339,"numeric",7,339,"factor",7,"comstfun","LRB","The functions and properties of structures with specific community-wide functions.  These are not residences, nor are they multifunctional residences.; (Table: 9.01); (Binford 2001:320)","categorical","data","96",NA,NA,NA
+"famhous",112,"numeric",87,112,"numeric",87,"famhous","LRB","Average number of families per household (==mhs/famsz); (Table: 9.01); (Binford 2001:320)","ordinal","data","96",NA,NA,NA
+"packinx",339,"numeric",227,339,"numeric",227,"packinx","LRB","Density rescaled to fit population packing concept: packinx=density/9.098; (Binford 2001:374)","ordinal","data","96",NA,NA,NA
+"lpackinx",339,"numeric",191,339,"numeric",191,"lpackinx","LRB","Log 10 of packinx; (Binford 2001:375)","ordinal","data","96",NA,NA,NA
+"packord",339,"numeric",4,339,"factor",4,"packord","LRB","Ordinal measure for packing. The packing threshold is the value of population density at which there is one minimal group per foraging radius (20.47 persons/225 sq km = 9.1 persons), thus indicating a density value at which there is no longer unoccupied space into which mobile hunter-gatherers could move; (Binford 2001:375)","ordinal","data","96",NA,NA,NA
+"packing",339,"numeric",2,339,"factor",2,"packing","LRB","Binary variable for population packing","ordinal","data","96",NA,NA,NA
+"systate3recod",339,"numeric",7,339,"factor",7,"systate3recod","LRB","Recode of systate3 by DR White; (Binford 2001:375)","categorical","data","96",NA,NA,NA
+"systate3",338,"numeric",7,338,"factor",7,"systate3","LRB","Classification of foragers: system's state; (Table: 9.01); (Binford 2001:375)","categorical","data","96",NA,NA,NA
+"huntfil2",339,"numeric",2,339,"factor",2,"huntfil2","LRB","Identifies mounted hunters. A binary variable produced from systate3; (Binford 2001:417)","ordinal","data","96",NA,NA,NA
+"spacing",163,"numeric",3,163,"factor",3,"spacing","LRB","A normative estimate of the distance between houses in the settlement.","ordinal","data","96",NA,NA,NA
+"house80",339,"numeric",5,339,"factor",5,"house80","LRB","House shape: Codes the shape of the ground plan of the most common type of shelter.","categorical","data","96",NA,NA,NA
+"house81",339,"numeric",4,339,"factor",4,"house81","LRB","Codes the character of the floor level within the house","categorical","data","96",NA,NA,NA
+"house82",339,"numeric",6,339,"factor",6,"house82","LRB","Codes the character of the wall material used in constructing the house","categorical","data","96",NA,NA,NA
+"house83",339,"numeric",5,339,"factor",5,"house83","LRB","Codes the shape of the roof or of walls and roof when the former are not distinct","categorical","data","96",NA,NA,NA
+"house84",339,"numeric",6,339,"factor",6,"house84","LRB","Codes the material used in roofing for the dominant house form","categorical","data","96",NA,NA,NA
+"house85",243,"numeric",5,243,"factor",5,"house85","LRB","Codes the shape of the ground plan of the most common type of shelter","categorical","data","96",NA,NA,NA
+"house86",241,"numeric",4,241,"factor",4,"house86","LRB","Codes the character of the floor level within the shelter","categorical","data","96",NA,NA,NA
+"house87",242,"numeric",5,242,"factor",5,"house87","LRB","Codes the character of the wall material used in constructing the shelter","categorical","data","96",NA,NA,NA
+"house88",242,"numeric",5,242,"factor",5,"house88","LRB","Codes the shape of the shelters roof or of walls and roof when the former are not distinct","categorical","data","96",NA,NA,NA
+"house89",244,"numeric",5,244,"factor",5,"house89","LRB","Codes the material used in roofing for the dominant shelter form","categorical","data","96",NA,NA,NA
+"sed",339,"numeric",4,339,"factor",4,"sed","LRB","Degree of sedentism","ordinal","data","96",NA,NA,NA
+"mobpat",339,"numeric",6,339,"factor",6,"mobpat","LRB","Codes the mobility-group organizations of the subsistence-settlement pattern","categorical","data","96",NA,NA,NA
+"mobp2",339,"numeric",4,339,"factor",4,"mobp2","LRB","Routed foraging where the group feeds between target locations that are annually visited for purposes of obtaining raw materials to maintain technology.","categorical","data","96",NA,NA,NA
+"sz1fam",143,"numeric",104,143,"numeric",104,"sz1fam","LRB","Size of a single family dwelling [size is reported as the diameter (m) of a circle with area equal to the area of the dwelling]","ordinal","data","96",NA,NA,NA
+"szjoint",104,"numeric",80,104,"numeric",80,"szjoint","LRB","Size of a joint family dwelling [size reported as diameter (m) of a circle with area equal to the area of the dwelling]","ordinal","data","96",NA,NA,NA
+"szcomu",56,"numeric",53,56,"numeric",53,"szcomu","LRB","Size of a communal dwelling [size reported as diameter (m) of a circle with area equal to the area of the dwelling]","ordinal","data","96",NA,NA,NA
+"szmean",206,"numeric",170,206,"numeric",170,"szmean","LRB","Mean dwelling size [size reported as diameter (m) of a circle with area equal to the area of the dwelling]","ordinal","data","96",NA,NA,NA
+"hhtyp1",115,"numeric",8,115,"factor",8,"hhtyp1","LRB","Primary household type, based on initial capital letter in code for hhtype; (Table: 8.08); (Binford 2001: 297)","categorical","data","96",NA,NA,NA
+"g2mhs",218,"numeric",192,218,"numeric",192,"g2mhs","LRB","Number of households per group2 (==group2/mhs); (Table: 9.01); (Binford 2001:320)","ordinal","data","96",NA,NA,NA
+"prevalue",218,"numeric",148,218,"numeric",148,"prevalue","LRB","Variable is in Table 9.01. initial attempt at calculating G2MHS. unclear meaning.; (Table: 9.01); (Binford 2001:320)","ordinal","data","96",NA,NA,NA
+"mhsset",219,"numeric",5,219,"numeric",5,"mhsset","LRB","Classification by values of mhs and hougrp2. Initial version. (Table: 9.01); (Binford 2001:320)","categorical","data","96",NA,NA,NA
+"mhset2",218,"numeric",5,218,"numeric",5,"mhset2","LRB","Mean Household Size Set: the classification of the relationship between mhs and hougrp2; (Table: 9.01); (Binford 2001:320)","categorical","data","96",NA,NA,NA
+"predg2mh",211,"numeric",141,211,"numeric",141,"predg2mh","LRB","Initial attempt at calculating G2MHS. unclear meaning. (Table: 9.01); (Binford 2001:320)","ordinal","data","96",NA,NA,NA
+"g2famsz",120,"numeric",114,120,"numeric",114,"g2famsz","LRB","Number of families per group2 (==group2/famsz); (Table: 9.01); (Binford 2001:320)","ordinal","data","96",NA,NA,NA
+"g1famsz",110,"numeric",100,110,"numeric",100,"g1famsz","LRB","Number of families per group1 (==group1/famsz); (Equation: group1/famsz); (Table: 9.01); (Binford 2001:333)","ordinal","data","96",NA,NA,NA
+"g1mhs",174,"numeric",146,174,"numeric",146,"g1mhs","LRB","Number of households per group1 (==group1/mhs); (Equation: group1/mhs); (Table: 9.01); (Binford 2001:333)","ordinal","data","96",NA,NA,NA
+"g2g1",217,"numeric",136,217,"numeric",136,"g2g1","LRB","Number of group1 units in a group2 unit; (Equation: group2/group1); (Binford 2001:336)","ordinal","data","96",NA,NA,NA
+"g2mhset2",219,"numeric",8,219,"factor",8,"g2mhset2","LRB","Classification based on relationship between mhs and group2; (Table: 9.01); (Binford 2001:337)","categorical","data","96",NA,NA,NA
+"g2mhset3",217,"numeric",4,217,"factor",4,"g2mhset3","LRB","Simplified version of g2mhset2; (Table: 9.01); (Binford 2001:340)","categorical","data","96",NA,NA,NA
+"g2basord",291,"numeric",12,291,"numeric",13,"g2basord","LRB","Basal unit size for group2 --ordinal classification; (Table: 9.01); (Binford 2001:348)","ordinal","data","96",NA,NA,NA
+"hougrp2",222,"numeric",212,222,"numeric",215,"hougrp2","LRB","Mean number of houses per group2 unit. (Equation: group2/mhs); (Binford 2001:344)","ordinal","data","96",NA,NA,NA
+"money",339,"numeric",4,339,"factor",4,"money","LRB","Codes the presence or absence of the use of money within the society; (Table: 9.01); (Binford 2001:320)","ordinal","data","96",NA,NA,NA
+"occspe",339,"numeric",4,339,"factor",4,"occspe","LRB","Occupational specialties reported which are not tied to the sexual division of labor or tendencies for role differences.; (Table: 9.01); (Binford 2001:320)","ordinal","data","96",NA,NA,NA
+"owners",339,"numeric",4,339,"factor",4,"owners","LRB","Ownership of resource locations ; (Table: 9.01); (Binford 2001:426)","categorical","data","96",NA,NA,NA
+"indtrd",317,"numeric",6,317,"factor",6,"indtrd","LRB","The organization of individual to individual trade in manufactured goods or raw materials across local group boundaries.","categorical","data","96",NA,NA,NA
+"indtfo",287,"numeric",4,287,"factor",4,"indtfo","LRB","The presence and form of exchanges where FOOD is one of the materials involved in exchanges across local group boundaries.","categorical","data","96",NA,NA,NA
+"grptrd",296,"numeric",5,296,"factor",5,"grptrd","LRB","The way of organizing group to group trade and exchange within a regio","categorical","data","96",NA,NA,NA
+"orgfair",311,"numeric",7,311,"factor",7,"orgfair","LRB","Manner of organization of trade fairs or special trade events in which food is the primary commodity that is desired in exchange.","categorical","data","96",NA,NA,NA
+"excorg",291,"numeric",6,291,"factor",6,"excorg","LRB","The characteristic exchange relationships between host unit and guest unit in intercommunity events when goods are supplied to guests, the group tabulated is the host and it is an event where exchange is a conventionally included part of the activities.","categorical","data","96",NA,NA,NA
+"perogat",337,"numeric",5,337,"factor",5,"perogat","LRB","The social and economic prerogatives which accompany the leadership role.; (Table: 9.01); (Binford 2001:338)","ordinal","data","96",NA,NA,NA
+"leader",339,"numeric",2,339,"factor",2,"leader","LRB","Predominant type of leadership; (Binford 2001:388)","categorical","data","96",NA,NA,NA
+"polyscal",339,"numeric",4,339,"factor",4,"polyscal","LRB","Measure of scale for the demographic and spatial scope of political organization.; (Table: 9.01); (Binford 2001:252)","ordinal","data","96",NA,NA,NA
+"class",339,"numeric",3,339,"factor",3,"class","LRB","Type of social class distinction; (Table: 9.01); (Binford 2001:320)","categorical","data","96",NA,NA,NA
+"polpos",339,"numeric",3,339,"factor",3,"polpos","LRB","Code refers to the political and economic position of the group relative to other groups in the region; (Table: 9.01); (Binford 2001:345)","categorical","data","96",NA,NA,NA
+"intform",339,"numeric",2,339,"factor",2,"intform","LRB","Form of integration.","categorical","data","96",NA,NA,NA
+"headm",339,"numeric",3,339,"factor",3,"headm","LRB","The patterns of succession of acknowledged leaders in the maximal politically integrated unit represented by the case.","categorical","data","96",NA,NA,NA
+"shaman",313,"numeric",4,313,"factor",4,"shaman","LRB","Codes the presence and scale of shaman's rituals as a social and organized event beyond their functioning as curers, healers, etc. at the personal or family level.  This also excludes rituals conducted only for shamans that may qualify as secret societies","ordinal","data","96",NA,NA,NA
+"intcon",327,"numeric",3,327,"factor",3,"intcon","LRB","Frequency of internal conflict.","ordinal","data","96",NA,NA,NA
+"intres",324,"numeric",4,324,"factor",4,"intres","LRB","The means culturally available for resolving conflict and/or deducing punishments, if any, within GP2.","categorical","data","96",NA,NA,NA
+"gpgpcon",333,"numeric",4,333,"factor",4,"gpgpcon","LRB","Scale of inter-group violence which is conducted with groups beyond the definition of GP2 and/or GP3","ordinal","data","96",NA,NA,NA
+"gpgpres",337,"numeric",4,337,"factor",4,"gpgpres","LRB","The means available for resolving conflicts between groups as coded in GPGPCON.","categorical","data","96",NA,NA,NA
+"war1",339,"numeric",5,339,"factor",5,"war1","LRB","Scale of intensity of warfare.  How frequent and how widespread it may be regionally.","ordinal","data","96",NA,NA,NA
+"conpos",336,"numeric",3,336,"factor",3,"conpos","LRB","The posture of the particular group relative to the intensity of warfare within the region as coded in WAR.","ordinal","data","96",NA,NA,NA
+"enemy",315,"numeric",4,315,"factor",4,"enemy","LRB","The treatment of the bodies of those killed in group-group conflicts.","ordinal","data","96",NA,NA,NA
+"prison",316,"numeric",3,316,"factor",3,"prison","LRB","Codes the treatment of prisoners upon return to the ""home"" group","ordinal","data","96",NA,NA,NA
+"slave",339,"numeric",3,339,"factor",3,"slave","LRB","Status of slaves in the society.","ordinal","data","96",NA,NA,NA
+"warlead",331,"numeric",3,331,"factor",3,"warlead","LRB","Manner of choosing a leader in group-group conflict situations.","ordinal","data","96",NA,NA,NA
+"boyseg38",317,"numeric",3,317,"factor",3,"boyseg38","LRB","Codes the segregation of adolescent boys prior to initiation or at the time of puberty","ordinal","data","96",NA,NA,NA
+"initm",317,"numeric",5,317,"factor",5,"initm","LRB","Scale and elaborateness of male puberty rituals.","ordinal","data","96",NA,NA,NA
+"initexm",300,"numeric",5,300,"factor",5,"initexm","LRB","The degree of exclusiveness of the male centered rituals. (Do women observe or participate?)","ordinal","data","96",NA,NA,NA
+"initf",313,"numeric",5,313,"factor",5,"initf","LRB","The scale and social investments in female puberty rites.","categorical","data","96",NA,NA,NA
+"dom1",312,"numeric",6,312,"factor",6,"dom1","LRB","The collapsed classes of rituals as outlined in sections a-f above for the dominant ritual.","categorical","data","96",NA,NA,NA
+"dom2",302,"numeric",6,302,"factor",6,"dom2","LRB","The collapsed classes of rituals as outlined in sections a-f above for the second-most dominant ritual.","categorical","data","96",NA,NA,NA
+"deadav",299,"numeric",3,299,"factor",3,"deadav","LRB","The presence/absence of taboos against speaking the name of the deceased after death.","ordinal","data","96",NA,NA,NA
+"death",295,"numeric",3,295,"factor",3,"death","LRB","Codes the response to death as regards housing and the use of the camp","ordinal","data","96",NA,NA,NA
+"discomp",292,"numeric",4,292,"factor",4,"discomp","LRB","The disposal event sequence regarding only the treatment of the corpse.","ordinal","data","96",NA,NA,NA
+"discomp2",303,"numeric",2,303,"factor",2,"discomp2","LRB","The number of major steps relating to the disposal of the corpse","ordinal","data","96",NA,NA,NA
+"disloc",296,"numeric",3,296,"factor",3,"disloc","LRB","Codes the location of the final step in the disposal sequence.","ordinal","data","96",NA,NA,NA
+"bodyt",311,"numeric",3,311,"factor",3,"bodyt","LRB","The state of the skeletal remains on final disposal.","ordinal","data","96",NA,NA,NA
+"dispc",318,"numeric",6,318,"factor",6,"dispc","LRB","This code has reference to the mode of disposal for all persons or persons in the prime of life only.  There may be alternative modes of disposal for the very young, aged, or for special conditions of death.  This has primary reference to the situation of the decay of the body or the use of soft parts","categorical","data","96",NA,NA,NA
+"disdiff",323,"numeric",4,323,"factor",4,"disdiff","LRB","Differences in body disposal modes across persons","categorical","data","96",NA,NA,NA
+"dritual",293,"numeric",3,293,"factor",3,"dritual","LRB","The sequential complexity of mortuary rituals regularly performed after a death.","ordinal","data","96",NA,NA,NA
+"ritscal",298,"numeric",4,298,"factor",4,"ritscal","LRB","The scale of non-immediate family involvement in the mortuary rituals.","ordinal","data","96",NA,NA,NA
+"ritfocus",258,"numeric",3,258,"factor",3,"ritfocus","LRB","The goals of the mortuary ritual or its ideological tone.","categorical","data","96",NA,NA,NA
+"caudeath",294,"numeric",4,294,"factor",4,"caudeath","LRB","The emic beliefs regarding the causes of death insofar as they are related to aspects of mortuary behavior. Can be interpreted as ordinal measure of the degree to which death is considered emically ""unnatural"".","categorical","data","96",NA,NA,NA
+"divmor",288,"numeric",3,288,"factor",3,"divmor","LRB","Role and importance of divination in mortuary ritual.","ordinal","data","96",NA,NA,NA
+"usebody",299,"numeric",5,299,"factor",5,"usebody","LRB","The use of body parts from the deceased during the mortuary rituals.","categorical","data","96",NA,NA,NA
+"gcont",299,"numeric",3,299,"factor",3,"gcont","LRB","The treatment of the durable goods which were brought for the use during the mortuary rituals. Contributed goods are not the goods of the deceased.","categorical","data","96",NA,NA,NA
+"gdist",293,"numeric",2,293,"factor",2,"gdist","LRB","The treatment of the majority of the durable items which could be considered as associated with or ""owned"" by the deceased.","categorical","data","96",NA,NA,NA
+"gfur",291,"numeric",3,291,"factor",3,"gfur","LRB","The placement of personalities with the corpse in its final resting place.","categorical","data","96",NA,NA,NA
+"revres",251,"numeric",3,251,"factor",3,"revres","LRB","The organization of revenge activity which is generally conducted during the mourning period of the mortuary rites.","ordinal","data","96",NA,NA,NA
+"agem",179,"numeric",26,179,"numeric",26,"agem","LRB","Average age of males at the time of their first marriage.; (Table: 8.07); (Binford 2001:281)","ordinal","data","96",NA,NA,NA
+"agef",205,"numeric",26,205,"numeric",26,"agef","LRB","Average age of females at the time of their first marriage.; (Table: 8.07); (Binford 2001:281)","ordinal","data","96",NA,NA,NA
+"agedif",177,"numeric",30,177,"numeric",30,"agedif","LRB","The difference between mean age at first marriage of husbands and wives. ; (Binford 2001:299)","ordinal","data","96",NA,NA,NA
+"polyg",211,"numeric",52,211,"numeric",52,"polyg","LRB","Percentage of males married polygynously, with some additional values added to those found in table; (Table: 8.07); (Binford 2001:281)","ordinal","data","96",NA,NA,NA
+"polygrecod",221,"numeric",53,221,"numeric",53,"polygrecod","LRB","Percentage of males married polygynously (polyg) recoded by Doug White to distinguish monogamy from missing values; (Table: 8.07); (Binford 2001:281)","ordinal","data","96",NA,NA,NA
+"wx.polygny",191,"numeric",57,191,"numeric",57,"wx.polygny","LRB","Percentage of males married polygynously, as-is from table; (Table: 8.07); (Binford 2001:281)","ordinal","data","96",NA,NA,NA
+"agecom",332,"numeric",4,332,"factor",4,"agecom","LRB","The average difference between males and females at the time of initial marriage of each (i.e., this is not the age difference between the marriage partners).","ordinal","data","96",NA,NA,NA
+"res1",334,"numeric",5,334,"factor",5,"res1","LRB","This code has reference to the immediately post-marital residence of the married couple","categorical","data","96",NA,NA,NA
+"fres1",310,"numeric",3,310,"factor",3,"fres1","LRB","The residential association of the married couple after birth of children when they are an established family.","categorical","data","96",NA,NA,NA
+"fres2",310,"numeric",5,310,"factor",5,"fres2","LRB","The residential association of the married couple after the birth of their first child when they are established as a family.  This complements the initial residence code.","categorical","data","96",NA,NA,NA
+"levira",275,"numeric",2,275,"factor",2,"levira","LRB","The presence or absence of the passing of wives of a deceased male to close male relatives of the deceased. Binary variable.","ordinal","data","96",NA,NA,NA
+"sorora",262,"numeric",2,262,"factor",2,"sorora","LRB","The presence or absence of simultaneous sororal polygyny. Binary variable.","ordinal","data","96",NA,NA,NA
+"kinmar",330,"numeric",4,330,"factor",4,"kinmar","LRB","The form of the exogamic practices/ preferences.","categorical","data","96",NA,NA,NA
+"marsel",334,"numeric",4,334,"factor",4,"marsel","LRB","The manner in which marriages are negotiated and arranged within the society.","categorical","data","96",NA,NA,NA
+"marrycer",334,"numeric",4,334,"factor",4,"marrycer","LRB","The scale of investment in marriage ceremonies both in terms of the scale of participation and the goods and labor involved.","ordinal","data","96",NA,NA,NA
+"polygn",325,"numeric",7,325,"factor",7,"polygn","LRB","Codes on an ordinal scale an estimate of the percentage of males married multiple wives","ordinal","data","96",NA,NA,NA
+"mardir",323,"numeric",4,323,"factor",4,"mardir","LRB","This code scales the relative balance of the flow of goods and services in marriage arrangements.  This code does not scale the absolute quantity of goods and services, only the relative imbalance in terms of the standards of the community itself.","ordinal","data","96",NA,NA,NA
+"marprop",322,"numeric",4,322,"factor",4,"marprop","LRB","The investments in property exchanges made by the kinsmen of the prospective bride and groom.?","ordinal","data","96",NA,NA,NA
+"marinv",322,"numeric",3,322,"factor",3,"marinv","LRB","The types of investment made in marriages.","categorical","data","96",NA,NA,NA
+"divorce",339,"numeric",3,339,"factor",3,"divorce","LRB","Codes the difficulty of obtaining a sanctioned divorce within the society.","ordinal","data","96",NA,NA,NA
+"kincon",339,"numeric",2,339,"factor",2,"kincon","LRB","The basic convention for identifying kin for an unmarried child.","categorical","data","96",NA,NA,NA
+"kinstr",339,"numeric",5,339,"factor",5,"kinstr","LRB","The basic structure as used of the kinship conventions.","categorical","data","96",NA,NA,NA
+"kinbia1",339,"numeric",3,339,"factor",3,"kinbia1","LRB","Records the bias in the kinship structure as regards the side which is extended more or keyed upon cognitively for discussing exogamy","categorical","data","96",NA,NA,NA
+"augment",285,"numeric",9,285,"factor",9,"augment","LRB","Codes the ways of augmenting the kinspersons of an individual that are not done through birth or marriage","categorical","data","96",NA,NA,NA
+"augmen2",333,"numeric",3,333,"factor",3,"augmen2","LRB","The number of strategies used to augment kinship  [in HGKIN printouts from 9/25/94 with LRB handwritten notes re recoding]","categorical","data","96",NA,NA,NA
+"sodal",328,"numeric",6,328,"factor",6,"sodal","LRB","Sodalities: collapsed version of adjun [in HGKIN printouts from 9/25/94 with LRB handwritten notes re recoding]","categorical","data","96",NA,NA,NA
+"kinder",339,"numeric",3,339,"factor",3,"kinder","LRB","Kinship derived units are classes of kinspersons that are identifiable as higher order classes which are consistent with the cognitive conventions of the kinship system","categorical","data","96",NA,NA,NA
+"kinbia2",339,"numeric",3,339,"factor",3,"kinbia2","LRB","Codes the bias in the (KINDER) variable as regards the filiation of persons in kindreds, sibs, clans, etc","categorical","data","96",NA,NA,NA
+"elabor",322,"numeric",9,322,"factor",9,"elabor","LRB","Codes for cognitive elaborations or more general classes which are derivable from the underlying system of kin cognition.  Most of the time these elaborations serve no organizational function beyond providing rules of thumb for discussing exogamy and using these general categories for placing ""strangers"" into the web of kinship of the speaker.  The coding of cases here implies no additional functions for these units beyond those discussed here.","categorical","data","96",NA,NA,NA
+"elabor2",321,"numeric",4,321,"factor",4,"elabor2","LRB","The situation where elaborations are given social functions beyond those listed above such that they imply more than marriage arrangements, etc.  [in HGKIN printouts from 9/25/94 with LRB handwritten notes re recoding]","categorical","data","96",NA,NA,NA
+"elabor3",321,"numeric",4,321,"factor",4,"elabor3","LRB","Revised version of elabor2  [in HGKIN printouts from 9/25/94 with LRB handwritten notes re recoding]","categorical","data","96",NA,NA,NA
+"elabor4",321,"numeric",3,321,"factor",3,"elabor4","LRB","Revised version of elabor3  [in HGKIN printouts from 9/25/94 with LRB handwritten notes re recoding]","categorical","data","96",NA,NA,NA
+"diffocus",323,"numeric",4,323,"factor",4,"diffocus","LRB","Codes the domain within which the elaborations and adjunct differentiations primarily function.  Whether they contribute primarily to the internal complexity of the system or whether they provide the organizational basis for relating to and interacting in an expansive manner with adjacent groups is the focus of this code","categorical","data","96",NA,NA,NA
+"adjun",325,"numeric",11,325,"factor",11,"adjun","LRB","Codes the presence of organizational features which are discussed cognitively in kinship terms or refer to behaviors normally conventionalized by kinship but which are not derivable from the underlying properties of the kinship cognition itself","categorical","data","96",NA,NA,NA
+"adjun2",336,"numeric",4,336,"factor",4,"adjun2","LRB","Number of forms of adjunct kin  [in HGKIN printouts from 9/25/94 with LRB handwritten notes re recoding]","categorical","data","96",NA,NA,NA
+"adjun3",324,"numeric",3,324,"factor",3,"adjun3","LRB","Types of adjunct kin strategy  [in HGKIN printouts from 9/25/94 with LRB handwritten notes re recoding]","categorical","data","96",NA,NA,NA
+"adjun4",334,"numeric",6,334,"factor",6,"adjun4","LRB","Collapse of adjun  [in HGKIN printouts from 9/25/94 with LRB handwritten notes re recoding]","categorical","data","96",NA,NA,NA
+"kinexo",339,"numeric",4,339,"factor",4,"kinexo","LRB","Codes the limitation of kin extension characteristic of the society.  The code scales the lateral extension of the exogamic practice in the group","ordinal","data","96",NA,NA,NA
+"dkinex",339,"numeric",3,339,"factor",3,"dkinex","LRB","The situation where there are marked differences in the exogamic practices of the leaders and/or elite and the general population in the patterns of exogamic extension or restriction.","ordinal","data","96",NA,NA,NA
+"nenept",339,"numeric",3,339,"factor",3,"nenept","LRB","The kinship terminology for parallel nephews and nieces.","categorical","data","96",NA,NA,NA
+"nenext",338,"numeric",4,338,"factor",4,"nenext","LRB","The kinship terminology for cross nephews and nieces when they are distinguished from parallel nephews and nieces.","categorical","data","96",NA,NA,NA
+"kinterm2",314,"numeric",4,314,"factor",4,"kinterm2","LRB","The type of terminology used for first cousins.","categorical","data","96",NA,NA,NA
+"aunt",313,"numeric",4,313,"factor",4,"aunt","LRB","Kin terminology employed for aunts.","categorical","data","96",NA,NA,NA
+"gpaterm",252,"numeric",5,252,"factor",5,"gpaterm","LRB","Kin terms for grandparents.","categorical","data","96",NA,NA,NA
+"ggpater",322,"numeric",4,322,"factor",4,"ggpater","LRB","Kin terms for great grandparents.","categorical","data","96",NA,NA,NA
+"minlaw",332,"numeric",2,332,"factor",2,"minlaw","LRB","The presence or absence of behavioral mother-in-law avoidance and other restrictions on behavior. Binary variable.","ordinal","data","96",NA,NA,NA
+"male.mm",151,"numeric",96,147,"numeric",96,"male.mm","LRB","Male height in millimeters; (Table: 6.03); (Binford 2001:183)","ordinal","data","96",NA,NA,NA
+"female.mm",113,"numeric",79,110,"numeric",78,"female.mm","LRB","Female height in millimeters; (Table: 6.03); (Binford 2001:183)","ordinal","data","96",NA,NA,NA
+"male.kg",40,"numeric",33,34,"numeric",31,"male.kg","LRB","Male weight in kilograms; (Table: 6.03); (Binford 2001:183)","ordinal","data","96",NA,NA,NA
+"female.kg",20,"numeric",16,15,"numeric",14,"female.kg","LRB","Female weight in kilograms; (Table: 6.03); (Binford 2001:183)","ordinal","data","96",NA,NA,NA
+"termhnt",339,"numeric",330,339,"numeric",330,"termhnt","LRB","Proportion of food in a-cultural terrestrial model from hunting","ordinal","data","96",NA,NA,NA
+"termgath",329,"numeric",329,329,"numeric",329,"termgath","LRB","Proportion of food in a-cultural terrestrial model from gathering","ordinal","data","96",NA,NA,NA
+"termh2",339,"numeric",339,339,"numeric",329,"termh2","LRB","Terrestrial model hunting density: Number of persons per 100 sqkm who could be supported from ungulate resources alone; (Equation: 6.13); (Binford 2001:187)","ordinal","data","96",NA,NA,NA
+"termg2",339,"numeric",339,329,"numeric",324,"termg2","LRB","Terrestrial model gathering density: Number of persons per 100 sqkm who could be supported from terrestrial plant foods alone; (Equation: 6.14); (Binford 2001:187)","ordinal","data","96",NA,NA,NA
+"termd2",339,"numeric",339,339,"numeric",337,"termd2","LRB","Terrestrial model population density: Population density (adjusted for body size) expected at a particular location, based on terrestrial model (persons per 100 sqkm); (Equation: 6.15); (Binford 2001:187)","ordinal","data","96",NA,NA,NA
+"subspx",339,"character",4,339,"factor",4,"subspx","LRB","Dominant food source predicted by Binford's Terrestrial Model; (Binford 2001:203)","categorical","data","96",NA,NA,NA
+"nicheffg",339,"numeric",290,339,"numeric",290,"nicheffg","LRB","Ratio of niche effectiveness (measured density compared to terrestrial model density) in exploitation of terrestrial plant resources; (Equation: 10.02); (Binford 2001:373)","ordinal","data","96",NA,NA,NA
+"nicheffh",339,"numeric",311,339,"numeric",311,"nicheffh","LRB","Ratio of niche effectiveness (measured density compared to terrestrial model density) in exploitation of terrestrial animal resources; (Equation: 10.03); (Binford 2001:373)","ordinal","data","96",NA,NA,NA
+"nicheff",339,"numeric",339,339,"numeric",339,"nicheff","LRB","Ratio of niche effectiveness (measured density compared to terrestrial model density); (Equation: 10.01); (Binford 2001:373)","ordinal","data","96",NA,NA,NA
+"prindx",339,"numeric",229,339,"numeric",229,"prindx","LRB","Ratio of population density to TERMD2, the terrestrial model population density - a very simple measure of pressure on terrestrial resources = how many times more densely populated than a cultural terrestrial carrying capacity are observed HGs (Equation: density/termd2)","ordinal","data","96",NA,NA,NA
+"cvtemp",339,"numeric",337,339,"numeric",337,"cvtemp","LRB","Coefficient of variation of monthly temperature array.","ordinal","data","96","Binford 2001: 71",NA,NA
+"elev",339,"numeric",261,339,"numeric",261,"elev","LRB","Elevation at group?s central point.","ordinal","data","96",NA,NA,NA
+"lbar5",339,"numeric",339,339,"numeric",339,"lbar5","LRB","Log10 value of BAR5","ordinal","data","96",NA,NA,NA
+"lcoklm",339,"numeric",170,339,"numeric",170,"lcoklm","LRB","Log10 of COKLM","ordinal","data","96","Binford 2001: 154",NA,NA
+"lcvtemp",339,"numeric",337,339,"numeric",337,"lcvtemp","LRB","Log10 value of CVTEMP","ordinal","data","96",NA,NA,NA
+"lptoae",339,"numeric",314,339,"numeric",314,"lptoae","LRB","Log10 value of PTOAE","ordinal","data","96",NA,NA,NA
+"lptorun",339,"numeric",339,339,"numeric",339,"lptorun","LRB","Log10 value of PTORUN","ordinal","data","96",NA,NA,NA
+"lsnowac",339,"numeric",141,339,"numeric",141,"lsnowac","LRB","Log10 value of SNOWAC","ordinal","data","96",NA,NA,NA
+"lwaccess",339,"numeric",59,339,"numeric",59,"lwaccess","LRB","Log10 value of WACCESS","ordinal","data","96",NA,NA,NA
+"rungrc",339,"numeric",13,339,"numeric",13,"rungrc","LRB","Number of months in the growing season in which runoff is greater than zero.","ordinal","data","96","Binford 2001: 79",NA,NA
+"wret",339,"numeric",310,339,"numeric",310,"wret","LRB","Water retention: if CRR is greater than PET then the excess water may have been added to the water already stored in the soil.","ordinal","data","96","Binford 2001: 75",NA,NA
+"ptorun",339,"numeric",339,339,"numeric",339,"ptorun","LRB","PTORUN = PET/(RUNOFF+1). Ratio of potential evapotranspiration to runoff. Predictor of all true forest plant associations.","ordinal","data","96","Binford 2001: 79",NA,NA
+"ldefper",339,"numeric",35,339,"numeric",35,"ldefper","LRB","Log10 value of DEFPER","ordinal","data","96",NA,NA,NA
+"lgather",339,"numeric",39,339,"numeric",39,"lgather","LRB","Log10 value of GATHERIN","ordinal","data","96",NA,NA,NA
+"trange",339,"numeric",313,339,"numeric",313,"trange","LRB","Range of temperatures TRANGE = (MWM-MCM)","ordinal","data","96","Binford 2001: 59",NA,NA
+"watrgrc",339,"numeric",13,339,"numeric",13,"watrgrc","LRB","Number of months in the growing season in which water is retained in the soil.","ordinal","data","96",NA,NA,NA
+"lmeanelev",339,"numeric",318,339,"numeric",318,"lmeanelev","LRB","Log10 value of MEANELEV","ordinal","data","96",NA,NA,NA
+"lwatrgrc",339,"numeric",13,339,"numeric",13,"lwatrgrc","LRB","Log10 value of WATRGRC","ordinal","data","96",NA,NA,NA
+"pgrow",339,"numeric",34,339,"numeric",34,"pgrow","LRB","Weighted measure of the simultaneous presence of both water and solar radiation available to the plant community. Scales from 0-36; 0 indicates no chance for plant growth; 36 indicates good growing conditions year round.","ordinal","data","96","Binford 2001: 85",NA,NA
+"lrunoff",339,"numeric",303,339,"numeric",303,"lrunoff","LRB","Log10 value of RUNOFF","ordinal","data","96",NA,NA,NA
+"lsstab2",339,"numeric",339,339,"numeric",339,"lsstab2","LRB","Log10 value of SUCSTAB2","ordinal","data","96",NA,NA,NA
+"waccess",339,"numeric",59,339,"numeric",59,"waccess","LRB","Calculates plant access to water during the growing season.","ordinal","data","96",NA,NA,NA
+"lfishing",339,"numeric",55,339,"numeric",55,"lfishing","LRB","Log10 value of FISHING","ordinal","data","96",NA,NA,NA
+"hg142",339,"numeric",2,339,"numeric",2,"hg142","LRB","Sample of hunter-gatherer cases selected by vegetation type proportional to Earth's area in each vegetation type","ordinal","data","96",NA,"Binford 2001: 144-154",NA
+"setn11",339,"numeric",2,339,"numeric",2,"setn11","LRB","Marker for subset of hunter-gatherer cases for which SUBPOP = N, GRPPAT = 1, and SUBSP=1","ordinal","data","96",NA,NA,NA
+"setn12",339,"numeric",2,339,"numeric",2,"setn12","LRB","Marker for subset of hunter-gatherer cases for which SUBPOP = N, GRPPAT = 1, and SUBSP=2","ordinal","data","96",NA,NA,NA
+"setn13",339,"numeric",2,339,"numeric",2,"setn13","LRB","Marker for subset of hunter-gatherer cases for which SUBPOP = N, GRPPAT = 1, and SUBSP=3","ordinal","data","96",NA,NA,NA
+"setn21",339,"numeric",2,339,"numeric",2,"setn21","LRB","Marker for subset of hunter-gatherer cases for which SUBPOP = N, GRPPAT = 2, and SUBSP=1","ordinal","data","96",NA,NA,NA
+"setn22",339,"numeric",2,339,"numeric",2,"setn22","LRB","Marker for subset of hunter-gatherer cases for which SUBPOP = N, GRPPAT = 2, and SUBSP=2","ordinal","data","96",NA,NA,NA
+"setn23",339,"numeric",2,339,"numeric",2,"setn23","LRB","Marker for subset of hunter-gatherer cases for which SUBPOP = N, GRPPAT = 2, and SUBSP=3","ordinal","data","96",NA,NA,NA
+"pathogen",339,"numeric",13,339,"numeric",13,"pathogen","LRB","Pathogen prevalence (Fincher and Thornhill 2008)","ordinal","data","98",NA,NA,NA
+"numfam",128,"numeric",126,128,"numeric",126,"numfam","LRB","Number of families in society (Equation: tlpop/famsz) (Hamilton et al. 2007)","ordinal","data","97",NA,NA,NA
+"numg1",227,"numeric",196,227,"numeric",196,"numg1","LRB","Number of group1 units in society (Equation: tlpop/group1) (Hamilton et al. 2007)","ordinal","data","97",NA,NA,NA
+"numg2",297,"numeric",217,297,"numeric",217,"numg2","LRB","Number of group2 units in society (Equation: tlpop/group2) (Hamilton et al. 2007)","ordinal","data","97",NA,NA,NA
+"numg3",216,"numeric",117,216,"numeric",117,"numg3","LRB","Number of group3 units in society (Equation: tlpop/group3) (Hamilton et al. 2007)","ordinal","data","97",NA,NA,NA
+"branchrat",339,"numeric",208,339,"numeric",208,"branchrat","LRB","Horton-Strahler branching ratio, produced as slope in regression (Hamilton et al. 2007:2197)","ordinal","data","97",NA,NA,NA
+"reg",339,"character",2,339,"factor",2,"reg","GIS","Classification into Old World or New World. Used for calculation of linguistic proximity matrix.","categorical","auxiliary","75",NA,NA,"E. Anthon Eff's supplementary data"
+"iso639.3",339,"character",250,339,"factor",250,"iso639.3","GIS","ISO 639-3 language code, used on Ethnologue (http://www.ethnologue.com/)","categorical","auxiliary","75",NA,NA,NA
+"lang",339,"character",251,339,"factor",251,"lang","GIS","Language name, from Ethnologue (http://www.ethnologue.com/)","categorical","auxiliary","75",NA,NA,NA
+"phyl",339,"character",179,339,"factor",179,"phyl","GIS","Language phylogenetic classification, from Ethnologue (http://www.ethnologue.com/)","categorical","auxiliary","75",NA,NA,NA
+"alt",339,"numeric",285,339,"numeric",285,"alt","GIS","BIOCLIM: Altitude (m)","ordinal","data","76",NA,NA,NA
+"alt.sd",339,"numeric",338,339,"numeric",338,"alt.sd","GIS","BIOCLIM: Altitude (m)","ordinal","data","76","standard deviation within 20km radius",NA,NA
+"alt.flag",339,"numeric",2,339,"numeric",2,"alt.flag","GIS","BIOCLIM: Altitude (m)","ordinal","auxiliary","76","flag for data quality, higher values poorer accuracy",NA,NA
+"meanalt",339,"numeric",338,339,"numeric",338,"meanalt","GIS","BIOCLIM: Mean altitude within 20 km radius (m)","ordinal","data","76",NA,NA,NA
+"sdalt",339,"numeric",338,339,"numeric",338,"sdalt","GIS","BIOCLIM: Standard deviation of altitude within 20 km radius (m)","ordinal","data","76",NA,NA,NA
+"bio.1",339,"numeric",218,339,"numeric",218,"bio.1","GIS","BIOCLIM: Annual Mean Temperature (dgC*10)","ordinal","data","76",NA,NA,NA
+"bio.1.sd",339,"numeric",338,339,"numeric",338,"bio.1.sd","GIS","BIOCLIM: Annual Mean Temperature (dgC*10)","ordinal","data","76","standard deviation within 20km radius",NA,NA
+"bio.1.flag",339,"numeric",2,339,"numeric",2,"bio.1.flag","GIS","BIOCLIM: Annual Mean Temperature (dgC*10)","ordinal","auxiliary","76","flag for data quality, higher values poorer accuracy",NA,NA
+"bio.2",339,"numeric",118,339,"numeric",118,"bio.2","GIS","BIOCLIM: Mean Diurnal Range (Mean of monthly (max temp - min temp)) (dgC*10)","ordinal","data","76",NA,NA,NA
+"bio.2.sd",339,"numeric",338,339,"numeric",338,"bio.2.sd","GIS","BIOCLIM: Mean Diurnal Range (Mean of monthly (max temp - min temp)) (dgC*10)","ordinal","data","76","standard deviation within 20km radius",NA,NA
+"bio.2.flag",339,"numeric",2,339,"numeric",2,"bio.2.flag","GIS","BIOCLIM: Mean Diurnal Range (Mean of monthly (max temp - min temp)) (dgC*10)","ordinal","auxiliary","76","flag for data quality, higher values poorer accuracy",NA,NA
+"bio.3",339,"numeric",68,339,"numeric",68,"bio.3","GIS","BIOCLIM: Isothermality (bio_2/bio_7) (* 100)","ordinal","data","76",NA,NA,NA
+"bio.3.sd",339,"numeric",326,339,"numeric",326,"bio.3.sd","GIS","BIOCLIM: Isothermality (bio_2/bio_7) (* 100)","ordinal","data","76","standard deviation within 20km radius",NA,NA
+"bio.3.flag",339,"numeric",2,339,"numeric",2,"bio.3.flag","GIS","BIOCLIM: Isothermality (bio_2/bio_7) (* 100)","ordinal","auxiliary","76","flag for data quality, higher values poorer accuracy",NA,NA
+"bio.4",339,"numeric",332,339,"numeric",332,"bio.4","GIS","BIOCLIM: Temperature Seasonality (standard deviation *100)","ordinal","data","76",NA,NA,NA
+"bio.4.sd",339,"numeric",338,339,"numeric",338,"bio.4.sd","GIS","BIOCLIM: Temperature Seasonality (standard deviation *100)","ordinal","data","76","standard deviation within 20km radius",NA,NA
+"bio.4.flag",339,"numeric",2,339,"numeric",2,"bio.4.flag","GIS","BIOCLIM: Temperature Seasonality (standard deviation *100)","ordinal","auxiliary","76","flag for data quality, higher values poorer accuracy",NA,NA
+"bio.5",339,"numeric",190,339,"numeric",190,"bio.5","GIS","BIOCLIM: Max Temperature of Warmest Month (dgC*10)","ordinal","data","76",NA,NA,NA
+"bio.5.sd",339,"numeric",338,339,"numeric",338,"bio.5.sd","GIS","BIOCLIM: Max Temperature of Warmest Month (dgC*10)","ordinal","data","76","standard deviation within 20km radius",NA,NA
+"bio.5.flag",339,"numeric",2,339,"numeric",2,"bio.5.flag","GIS","BIOCLIM: Max Temperature of Warmest Month (dgC*10)","ordinal","auxiliary","76","flag for data quality, higher values poorer accuracy",NA,NA
+"bio.6",339,"numeric",250,339,"numeric",250,"bio.6","GIS","BIOCLIM: Min Temperature of Coldest Month (dgC*10)","ordinal","data","76",NA,NA,NA
+"bio.6.sd",339,"numeric",338,339,"numeric",338,"bio.6.sd","GIS","BIOCLIM: Min Temperature of Coldest Month (dgC*10)","ordinal","data","76","standard deviation within 20km radius",NA,NA
+"bio.6.flag",339,"numeric",2,339,"numeric",2,"bio.6.flag","GIS","BIOCLIM: Min Temperature of Coldest Month (dgC*10)","ordinal","auxiliary","76","flag for data quality, higher values poorer accuracy",NA,NA
+"bio.7",339,"numeric",235,339,"numeric",235,"bio.7","GIS","BIOCLIM: Temperature Annual Range (bio_5-bio_6) (dgC*10)","ordinal","data","76",NA,NA,NA
+"bio.7.sd",339,"numeric",338,339,"numeric",338,"bio.7.sd","GIS","BIOCLIM: Temperature Annual Range (bio_5-bio_6) (dgC*10)","ordinal","data","76","standard deviation within 20km radius",NA,NA
+"bio.7.flag",339,"numeric",2,339,"numeric",2,"bio.7.flag","GIS","BIOCLIM: Temperature Annual Range (bio_5-bio_6) (dgC*10)","ordinal","auxiliary","76","flag for data quality, higher values poorer accuracy",NA,NA
+"bio.8",339,"numeric",210,339,"numeric",210,"bio.8","GIS","BIOCLIM: Mean Temperature of Wettest Quarter (dgC*10)","ordinal","data","76",NA,NA,NA
+"bio.8.sd",339,"numeric",338,339,"numeric",338,"bio.8.sd","GIS","BIOCLIM: Mean Temperature of Wettest Quarter (dgC*10)","ordinal","data","76","standard deviation within 20km radius",NA,NA
+"bio.8.flag",339,"numeric",2,339,"numeric",2,"bio.8.flag","GIS","BIOCLIM: Mean Temperature of Wettest Quarter (dgC*10)","ordinal","auxiliary","76","flag for data quality, higher values poorer accuracy",NA,NA
+"bio.9",339,"numeric",220,339,"numeric",220,"bio.9","GIS","BIOCLIM: Mean Temperature of Driest Quarter (dgC*10)","ordinal","data","76",NA,NA,NA
+"bio.9.sd",339,"numeric",338,339,"numeric",338,"bio.9.sd","GIS","BIOCLIM: Mean Temperature of Driest Quarter (dgC*10)","ordinal","data","76","standard deviation within 20km radius",NA,NA
+"bio.9.flag",339,"numeric",2,339,"numeric",2,"bio.9.flag","GIS","BIOCLIM: Mean Temperature of Driest Quarter (dgC*10)","ordinal","auxiliary","76","flag for data quality, higher values poorer accuracy",NA,NA
+"bio.10",339,"numeric",198,339,"numeric",198,"bio.10","GIS","BIOCLIM: Mean Temperature of Warmest Quarter (dgC*10)","ordinal","data","76",NA,NA,NA
+"bio.10.sd",339,"numeric",338,339,"numeric",338,"bio.10.sd","GIS","BIOCLIM: Mean Temperature of Warmest Quarter (dgC*10)","ordinal","data","76","standard deviation within 20km radius",NA,NA
+"bio.10.flag",339,"numeric",2,339,"numeric",2,"bio.10.flag","GIS","BIOCLIM: Mean Temperature of Warmest Quarter (dgC*10)","ordinal","auxiliary","76","flag for data quality, higher values poorer accuracy",NA,NA
+"bio.11",339,"numeric",252,339,"numeric",252,"bio.11","GIS","BIOCLIM: Mean Temperature of Coldest Quarter (dgC*10)","ordinal","data","76",NA,NA,NA
+"bio.11.sd",339,"numeric",338,339,"numeric",338,"bio.11.sd","GIS","BIOCLIM: Mean Temperature of Coldest Quarter (dgC*10)","ordinal","data","76","standard deviation within 20km radius",NA,NA
+"bio.11.flag",339,"numeric",2,339,"numeric",2,"bio.11.flag","GIS","BIOCLIM: Mean Temperature of Coldest Quarter (dgC*10)","ordinal","auxiliary","76","flag for data quality, higher values poorer accuracy",NA,NA
+"bio.12",339,"numeric",298,339,"numeric",298,"bio.12","GIS","BIOCLIM: Annual Precipitation (mm)","ordinal","data","76",NA,NA,NA
+"bio.12.sd",339,"numeric",338,339,"numeric",338,"bio.12.sd","GIS","BIOCLIM: Annual Precipitation (mm)","ordinal","data","76","standard deviation within 20km radius",NA,NA
+"bio.12.flag",339,"numeric",2,339,"numeric",2,"bio.12.flag","GIS","BIOCLIM: Annual Precipitation (mm)","ordinal","auxiliary","76","flag for data quality, higher values poorer accuracy",NA,NA
+"bio.13",339,"numeric",199,339,"numeric",199,"bio.13","GIS","BIOCLIM: Precipitation of Wettest Month (mm)","ordinal","data","76",NA,NA,NA
+"bio.13.sd",339,"numeric",338,339,"numeric",338,"bio.13.sd","GIS","BIOCLIM: Precipitation of Wettest Month (mm)","ordinal","data","76","standard deviation within 20km radius",NA,NA
+"bio.13.flag",339,"numeric",2,339,"numeric",2,"bio.13.flag","GIS","BIOCLIM: Precipitation of Wettest Month (mm)","ordinal","auxiliary","76","flag for data quality, higher values poorer accuracy",NA,NA
+"bio.14",339,"numeric",77,339,"numeric",77,"bio.14","GIS","BIOCLIM: Precipitation of Driest Month (mm)","ordinal","data","76",NA,NA,NA
+"bio.14.sd",339,"numeric",314,339,"numeric",314,"bio.14.sd","GIS","BIOCLIM: Precipitation of Driest Month (mm)","ordinal","data","76","standard deviation within 20km radius",NA,NA
+"bio.14.flag",339,"numeric",2,339,"numeric",2,"bio.14.flag","GIS","BIOCLIM: Precipitation of Driest Month (mm)","ordinal","auxiliary","76","flag for data quality, higher values poorer accuracy",NA,NA
+"bio.15",339,"numeric",101,339,"numeric",101,"bio.15","GIS","BIOCLIM: Precipitation Seasonality (Coefficient of Variation)","ordinal","data","76",NA,NA,NA
+"bio.15.sd",339,"numeric",338,339,"numeric",338,"bio.15.sd","GIS","BIOCLIM: Precipitation Seasonality (Coefficient of Variation)","ordinal","data","76","standard deviation within 20km radius",NA,NA
+"bio.15.flag",339,"numeric",2,339,"numeric",2,"bio.15.flag","GIS","BIOCLIM: Precipitation Seasonality (Coefficient of Variation)","ordinal","auxiliary","76","flag for data quality, higher values poorer accuracy",NA,NA
+"bio.16",339,"numeric",283,339,"numeric",283,"bio.16","GIS","BIOCLIM: Precipitation of Wettest Quarter (mm)","ordinal","data","76",NA,NA,NA
+"bio.16.sd",339,"numeric",338,339,"numeric",338,"bio.16.sd","GIS","BIOCLIM: Precipitation of Wettest Quarter (mm)","ordinal","data","76","standard deviation within 20km radius",NA,NA
+"bio.16.flag",339,"numeric",2,339,"numeric",2,"bio.16.flag","GIS","BIOCLIM: Precipitation of Wettest Quarter (mm)","ordinal","auxiliary","76","flag for data quality, higher values poorer accuracy",NA,NA
+"bio.17",339,"numeric",157,339,"numeric",157,"bio.17","GIS","BIOCLIM: Precipitation of Driest Quarter (mm)","ordinal","data","76",NA,NA,NA
+"bio.17.sd",339,"numeric",332,339,"numeric",332,"bio.17.sd","GIS","BIOCLIM: Precipitation of Driest Quarter (mm)","ordinal","data","76","standard deviation within 20km radius",NA,NA
+"bio.17.flag",339,"numeric",2,339,"numeric",2,"bio.17.flag","GIS","BIOCLIM: Precipitation of Driest Quarter (mm)","ordinal","auxiliary","76","flag for data quality, higher values poorer accuracy",NA,NA
+"bio.18",339,"numeric",238,339,"numeric",238,"bio.18","GIS","BIOCLIM: Precipitation of Warmest Quarter (mm)","ordinal","data","76",NA,NA,NA
+"bio.18.sd",339,"numeric",338,339,"numeric",338,"bio.18.sd","GIS","BIOCLIM: Precipitation of Warmest Quarter (mm)","ordinal","data","76","standard deviation within 20km radius",NA,NA
+"bio.18.flag",339,"numeric",2,339,"numeric",2,"bio.18.flag","GIS","BIOCLIM: Precipitation of Warmest Quarter (mm)","ordinal","auxiliary","76","flag for data quality, higher values poorer accuracy",NA,NA
+"bio.19",339,"numeric",228,339,"numeric",228,"bio.19","GIS","BIOCLIM: Precipitation of Coldest Quarter (mm)","ordinal","data","76",NA,NA,NA
+"bio.19.sd",339,"numeric",335,339,"numeric",335,"bio.19.sd","GIS","BIOCLIM: Precipitation of Coldest Quarter (mm)","ordinal","data","76","standard deviation within 20km radius",NA,NA
+"bio.19.flag",339,"numeric",2,339,"numeric",2,"bio.19.flag","GIS","BIOCLIM: Precipitation of Coldest Quarter (mm)","ordinal","auxiliary","76","flag for data quality, higher values poorer accuracy",NA,NA
+"mnnpp",339,"numeric",337,339,"numeric",337,"mnnpp","GIS","Mean Net Primary Production within 50 km radius. (scaled) (Imhoff et al. 2004)","ordinal","data","77",NA,NA,NA
+"long",339,"numeric",322,339,"numeric",322,"long","GIS","Longitude (decimal degrees)--rectified","ordinal","data","78",NA,NA,NA
+"lati",339,"numeric",323,339,"numeric",323,"lati","GIS","Latitude (decimal degrees)--rectified","ordinal","data","78",NA,NA,NA
+"ecoregion",339,"character",141,339,"factor",141,"ecoregion","GIS","WWF ecoregion. (Olson et al. 2001)","categorical","data","80",NA,NA,NA
+"mht.name",339,"character",14,339,"factor",14,"mht.name","GIS","WWF major habitat type. (Olson et al. 2001)","categorical","data","80",NA,NA,NA
+"koeppengei",339,"character",21,339,"factor",21,"koeppengei","GIS","Koeppen-Geiger climate classification code. (Kottek et al. 2006)","categorical","data","81",NA,NA,NA
+"koepdesc",339,"character",21,339,"factor",21,"koepdesc","GIS","Koeppen-Geiger code description. (Kottek et al. 2006)","categorical","data","81",NA,NA,NA
+"iso",339,"character",33,339,"factor",33,"iso","GIS","ISO 3166-1 alpha-3 country codes (GADM-2 data from http://www.gadm.org/)","categorical","auxiliary","82",NA,NA,NA
+"name.0",339,"character",33,339,"factor",33,"name.0","GIS","Name of Country (GADM-2 data from http://www.gadm.org/)","categorical","auxiliary","82",NA,NA,NA
+"name.1",325,"character",92,339,"factor",99,"name.1","GIS","Name of first subnational administrative level (GADM-2 data from http://www.gadm.org/)","categorical","auxiliary","82",NA,NA,NA
+"hasc.1",336,"character",96,336,"factor",96,"hasc.1","GIS","Hierarchical administrative subdivision code--level 1 (GADM-2 data from http://www.gadm.org/)","categorical","auxiliary","82",NA,NA,NA
+"name.2",321,"character",238,339,"factor",251,"name.2","GIS","Name of second subnational administrative level (GADM-2 data from http://www.gadm.org/)","categorical","auxiliary","82",NA,NA,NA
+"hasc.2",298,"character",222,298,"factor",222,"hasc.2","GIS","Hierarchical administrative subdivision code--level 2 (GADM-2 data from http://www.gadm.org/)","categorical","auxiliary","82",NA,NA,NA
+"name.3",96,"character",77,97,"factor",78,"name.3","GIS","Name of third subnational administrative level (GADM-2 data from http://www.gadm.org/)","categorical","auxiliary","82",NA,NA,NA
+"continent",339,"character",5,339,"factor",5,"continent","GIS","Continent","categorical","data","83",NA,NA,NA
+"region",339,"character",11,339,"factor",11,"region","GIS","Major sub-continental geographic region","categorical","data","83",NA,NA,NA
+"flag1",339,"numeric",2,339,"numeric",2,"flag1","GIS","Data quality flag 1","categorical","auxiliary","93","Dummy==1 where imputed values used for: ""noaddprop"", ""gelic"", ""petric"", ""vertic""",NA,NA
+"noaddprop",339,"numeric",15,339,"numeric",15,"noaddprop","GIS","No additional soil properties (not gelic, petric, or vertic)","ordinal","data","93",NA,NA,NA
+"gelic",339,"numeric",9,339,"numeric",9,"gelic","GIS","Gelic properties refer to soils having permafrost within 200 cm from the soil surface.","ordinal","data","93",NA,NA,NA
+"petric",339,"numeric",4,339,"numeric",4,"petric","GIS","Petric properties refer to strongly cemented or indurated layer starting within 100 cm from the soil surface.","ordinal","data","93",NA,NA,NA
+"vertic",339,"numeric",7,339,"numeric",7,"vertic","GIS","Vertic properties refer to cracks of more than 1 cm wide occurring in the upper part of the soil.","ordinal","data","93",NA,NA,NA
+"flag2",339,"numeric",2,339,"numeric",2,"flag2","GIS","Data quality flag 2","categorical","auxiliary","93","Dummy==1 where imputed values used for: ""clayheavy"", ""claylight"", ""clayloam"", ""loam"", ""loamysand"", ""sand"", ""sandyclay"", ""sandyclayloam"", ""sandyloam"", ""siltloam"", ""siltyclay"", ""siltyclayloam""",NA,NA
+"clayheavy",339,"numeric",6,339,"numeric",6,"clayheavy","GIS","Percent of soil in soil texture category 1, where 1 is finest soil and 13 is the coarsest.","ordinal","data","93",NA,NA,NA
+"siltyclay",339,"numeric",4,339,"numeric",4,"siltyclay","GIS","Percent of soil in soil texture category 2, where 1 is finest soil and 13 is the coarsest.","ordinal","data","93",NA,NA,NA
+"claylight",339,"numeric",16,339,"numeric",16,"claylight","GIS","Percent of soil in soil texture category 3, where 1 is finest soil and 13 is the coarsest.","ordinal","data","93",NA,NA,NA
+"siltyclayloam",339,"numeric",3,339,"numeric",3,"siltyclayloam","GIS","Percent of soil in soil texture category 4, where 1 is finest soil and 13 is the coarsest.","ordinal","data","93",NA,NA,NA
+"clayloam",339,"numeric",6,339,"numeric",6,"clayloam","GIS","Percent of soil in soil texture category 5, where 1 is finest soil and 13 is the coarsest.","ordinal","data","93",NA,NA,NA
+"siltloam",339,"numeric",12,339,"numeric",12,"siltloam","GIS","Percent of soil in soil texture category 7, where 1 is finest soil and 13 is the coarsest.","ordinal","data","93",NA,NA,NA
+"sandyclay",339,"numeric",2,339,"numeric",2,"sandyclay","GIS","Percent of soil in soil texture category 8, where 1 is finest soil and 13 is the coarsest.","ordinal","data","93",NA,NA,NA
+"loam",339,"numeric",20,339,"numeric",20,"loam","GIS","Percent of soil in soil texture category 9, where 1 is finest soil and 13 is the coarsest.","ordinal","data","93",NA,NA,NA
+"sandyclayloam",339,"numeric",15,339,"numeric",15,"sandyclayloam","GIS","Percent of soil in soil texture category 10, where 1 is finest soil and 13 is the coarsest.","ordinal","data","93",NA,NA,NA
+"sandyloam",339,"numeric",19,339,"numeric",19,"sandyloam","GIS","Percent of soil in soil texture category 11, where 1 is finest soil and 13 is the coarsest.","ordinal","data","93",NA,NA,NA
+"loamysand",339,"numeric",15,339,"numeric",15,"loamysand","GIS","Percent of soil in soil texture category 12, where 1 is finest soil and 13 is the coarsest.","ordinal","data","93",NA,NA,NA
+"sand",339,"numeric",14,339,"numeric",14,"sand","GIS","Percent of soil in soil texture category 13, where 1 is finest soil and 13 is the coarsest.","ordinal","data","93",NA,NA,NA
+"flag3",339,"numeric",1,339,"numeric",1,"flag3","GIS","Data quality flag 3","categorical","auxiliary","93","Dummy==1 where imputed values used for: ""issoil"", ""t_texture"", ""drainage"", ""awc_class"", ""t_gravel"", ""t_sand"", ""t_silt"", ""t_clay"", ""t_usda_tex_class"", ""t_ref_bulk_density"", ""t_bulk_density"", ""t_oc"", ""t_ph_h2o"", ""t_cec_clay"", ""t_cec_soil"", ""t_bs"", ""t_teb"", ""t_caco3"", ""t_caso4"", ""t_esp"", ""t_ece"", ""s_gravel"", ""s_sand"", ""s_silt"", ""s_clay"", ""s_usda_tex_class"", ""s_ref_bulk_density"", ""s_bulk_density"", ""s_oc"", ""s_ph_h2o"", ""s_cec_clay"", ""s_cec_soil"", ""s_bs"", ""s_teb"", ""s_caco3"", ""s_caso4"", ""s_esp"", ""s_ece"",""su_symbol"", ""su_value""",NA,NA
+"issoil",339,"numeric",2,339,"numeric",2,"issoil","GIS","Proportion of sampled area that is soil","ordinal","data","93",NA,NA,NA
+"t_texture",339,"numeric",37,339,"numeric",37,"t_texture","GIS","Texture of topsoil (higher values coarser texture)","ordinal","data","93",NA,NA,NA
+"drainage",339,"numeric",53,339,"numeric",53,"drainage","GIS","Drainage of soil (higher values better drainage)","ordinal","data","93",NA,NA,NA
+"awc_class",339,"numeric",43,339,"numeric",43,"awc_class","GIS","Available Water storage Capacity (higher values less water storage capacity)","ordinal","data","93",NA,NA,NA
+"t_gravel",339,"numeric",23,339,"numeric",23,"t_gravel","GIS","Percent of topsoil consisting of gravel","ordinal","data","93",NA,NA,NA
+"t_sand",339,"numeric",61,339,"numeric",61,"t_sand","GIS","Percent of topsoil consisting of sand","ordinal","data","93",NA,NA,NA
+"t_silt",339,"numeric",44,339,"numeric",44,"t_silt","GIS","Percent of topsoil consisting of silt","ordinal","data","93",NA,NA,NA
+"t_clay",339,"numeric",43,339,"numeric",43,"t_clay","GIS","Percent of topsoil consisting of clay","ordinal","data","93",NA,NA,NA
+"t_usda_tex_class",339,"numeric",79,339,"numeric",79,"t_usda_tex_class","GIS","Measure of topsoil texture (higher values coarser texture)","ordinal","data","93",NA,NA,NA
+"t_ref_bulk_density",339,"numeric",151,339,"numeric",151,"t_ref_bulk_density","GIS","Bulk density = topsoil mass/topsoil volume. Calculations based on texture only.","ordinal","data","93","Bulk density is inversely related to porosity.",NA,NA
+"t_bulk_density",339,"numeric",161,339,"numeric",161,"t_bulk_density","GIS","Bulk density = topsoil mass/topsoil volume. Calculations based on texture, organic matter content, and porosity.","ordinal","data","93","Bulk density is inversely related to porosity.",NA,NA
+"t_oc",339,"numeric",191,339,"numeric",191,"t_oc","GIS","Percentage of organic carbon in topsoil.","ordinal","data","93","Organic Carbon is together with pH, the best simple indicator of the health status of the soil. Moderate to high amounts of organic carbon are associated with fertile soils with a good structure.",NA,NA
+"t_ph_h2o",339,"numeric",159,339,"numeric",159,"t_ph_h2o","GIS","pH of topsoil.","ordinal","data","93","Low values are acidic; high values alkaline. Best soils for most crops lie in 5.5 to 7.2 range.",NA,NA
+"t_cec_clay",339,"numeric",176,339,"numeric",176,"t_cec_clay","GIS","Cation exchange capacity of the clay fraction in topsoil.","ordinal","data","93","The total nutrient fixing capacity of a soil is well expressed by its Cation Exchange Capacity. Soils with low CEC have little resilience and can not build up stores of nutrients.",NA,NA
+"t_cec_soil",339,"numeric",147,339,"numeric",147,"t_cec_soil","GIS","Cation exchange capacity in topsoil.","ordinal","data","93","The total nutrient fixing capacity of a soil is well expressed by its Cation Exchange Capacity. Soils with low CEC have little resilience and can not build up stores of nutrients.",NA,NA
+"t_bs",339,"numeric",156,339,"numeric",156,"t_bs","GIS","Base saturation in topsoil.","ordinal","data","93","The base saturation measures the sum of exchangeable cations (nutrients) Na, Ca, Mg and K as a percentage of the overall exchange capacity of the soil (including the same cations plus H and Al). The value often shows a near linear correlation with pH.",NA,NA
+"t_teb",339,"numeric",190,339,"numeric",190,"t_teb","GIS","Total exchangable bases in topsoil.","ordinal","data","93","Total exchangeable bases stand for the sum of exchangeable cations in a soil: sodium (Na), calcium (Ca), magnesium (Mg) and Potassium (K).",NA,NA
+"t_caco3",339,"numeric",95,339,"numeric",95,"t_caco3","GIS","Calcium carbonate (lime) content in topsoil.","ordinal","data","93","Low levels of calcium carbonate enhance soil structure and are generally beneficial for crop production but at higher concentrations they may induce iron deficiency and when cemented limit the water storage capacity of soils.",NA,NA
+"t_caso4",339,"numeric",23,339,"numeric",23,"t_caso4","GIS","Calcium sulphate (gypsum) content in topsoil","ordinal","data","93","Up to 2 percent gypsum in the soil favours plant growth, between 2 and 25 percent has little or no adverse effect if in powdery form, but more than 25 percent can cause substantial reduction in yields.",NA,NA
+"t_esp",339,"numeric",73,339,"numeric",73,"t_esp","GIS","Exchangeable sodium percentage in the topsoil","ordinal","data","93","Exchangeable sodium percentage has been used to indicate levels of sodium in soils. It is calculated as the ratio of Na in the CEC (or sum of cations) ESP= Na*100/CECsoil",NA,NA
+"t_ece",339,"numeric",56,339,"numeric",56,"t_ece","GIS","Electrical conductivity of topsoil","ordinal","data","93","Salt content of a soil can be roughly estimated from the Electrical Conductivity of the soil (EC, expressed in dS m-1). Crops vary considerably in their resistance and response to salt in soils. Some crops will suffer at values as little as 2 dS m-1 (Spinach) others can stand up to 16 dS m-1 (Date palm).",NA,NA
+"s_gravel",339,"numeric",27,339,"numeric",27,"s_gravel","GIS","Percent of subsoil consisting of gravel","ordinal","data","93",NA,NA,NA
+"s_sand",339,"numeric",64,339,"numeric",64,"s_sand","GIS","Percent of subsoil consisting of sand","ordinal","data","93",NA,NA,NA
+"s_silt",339,"numeric",45,339,"numeric",45,"s_silt","GIS","Percent of subsoil consisting of silt","ordinal","data","93",NA,NA,NA
+"s_clay",339,"numeric",48,339,"numeric",48,"s_clay","GIS","Percent of subsoil consisting of clay","ordinal","data","93",NA,NA,NA
+"s_usda_tex_class",339,"numeric",93,339,"numeric",93,"s_usda_tex_class","GIS","Measure of subsoil texture (higher values coarser texture)","ordinal","data","93",NA,NA,NA
+"s_ref_bulk_density",339,"numeric",170,339,"numeric",170,"s_ref_bulk_density","GIS","Bulk density = subsoil mass/subsoil volume. Calculations based on texture only.","ordinal","data","93","Bulk density is inversely related to porosity.",NA,NA
+"s_bulk_density",339,"numeric",175,339,"numeric",175,"s_bulk_density","GIS","Bulk density = subsoil mass/subsoil volume. Calculations based on texture, organic matter content, and porosity.","ordinal","data","93","Bulk density is inversely related to porosity.",NA,NA
+"s_oc",339,"numeric",175,339,"numeric",175,"s_oc","GIS","Percentage of organic carbon in subsoil.","ordinal","data","93","Organic Carbon is together with pH, the best simple indicator of the health status of the soil. Moderate to high amounts of organic carbon are associated with fertile soils with a good structure.",NA,NA
+"s_ph_h2o",339,"numeric",163,339,"numeric",163,"s_ph_h2o","GIS","pH of subsoil.","ordinal","data","93","Low values are acidic; high values alkaline. Best soils for most crops lie in 5.5 to 7.2 range.",NA,NA
+"s_cec_clay",339,"numeric",176,339,"numeric",176,"s_cec_clay","GIS","Cation exchange capacity of the clay fraction in subsoil.","ordinal","data","93","The total nutrient fixing capacity of a soil is well expressed by its Cation Exchange Capacity. Soils with low CEC have little resilience and can not build up stores of nutrients.",NA,NA
+"s_cec_soil",339,"numeric",149,339,"numeric",149,"s_cec_soil","GIS","Cation exchange capacity in subsoil.","ordinal","data","93","The total nutrient fixing capacity of a soil is well expressed by its Cation Exchange Capacity. Soils with low CEC have little resilience and can not build up stores of nutrients.",NA,NA
+"s_bs",339,"numeric",155,339,"numeric",155,"s_bs","GIS","Base saturation in subsoil.","ordinal","data","93","The base saturation measures the sum of exchangeable cations (nutrients) Na, Ca, Mg and K as a percentage of the overall exchange capacity of the soil (including the same cations plus H and Al). The value often shows a near linear correlation with pH.",NA,NA
+"s_teb",339,"numeric",191,339,"numeric",191,"s_teb","GIS","Total exchangable bases in subsoil.","ordinal","data","93","Total exchangeable bases stand for the sum of exchangeable cations in a soil: sodium (Na), calcium (Ca), magnesium (Mg) and Potassium (K).",NA,NA
+"s_caco3",339,"numeric",98,339,"numeric",98,"s_caco3","GIS","Calcium carbonate (lime) content in subsoil.","ordinal","data","93","Low levels of calcium carbonate enhance soil structure and are generally beneficial for crop production but at higher concentrations they may induce iron deficiency and when cemented limit the water storage capacity of soils.",NA,NA
+"s_caso4",339,"numeric",34,339,"numeric",34,"s_caso4","GIS","Calcium sulphate (gypsum) content in subsoil","ordinal","data","93","Up to 2 percent gypsum in the soil favours plant growth, between 2 and 25 percent has little or no adverse effect if in powdery form, but more than 25 percent can cause substantial reduction in yields.",NA,NA
+"s_esp",339,"numeric",84,339,"numeric",84,"s_esp","GIS","Exchangeable sodium percentage in the subsoil","ordinal","data","93","Exchangeable sodium percentage has been used to indicate levels of sodium in soils. It is calculated as the ratio of Na in the CEC (or sum of cations) ESP= Na*100/CECsoil",NA,NA
+"s_ece",339,"numeric",77,339,"numeric",77,"s_ece","GIS","Electrical conductivity of subsoil","ordinal","data","93","Salt content of a soil can be roughly estimated from the Electrical Conductivity of the soil (EC, expressed in dS m-1). Crops vary considerably in their resistance and response to salt in soils. Some crops will suffer at values as little as 2 dS m-1 (Spinach) others can stand up to 16 dS m-1 (Date palm).",NA,NA
+"su_symbol",339,"character",28,339,"factor",28,"su_symbol","GIS","Symbol for HWSD spatially dominant major soil group.","categorical","data","93",NA,NA,NA
+"su_value",339,"character",28,339,"factor",28,"su_value","GIS","Name of HWSD spatially dominant major soil group.","categorical","data","93",NA,NA,NA
+"sq1",339,"numeric",8,339,"numeric",8,"sq1","GIS","Nutrient availability","ordinal","data","101","Soil texture, soil organic carbon, soil pH, total exchangeable bases",NA,NA
+"sq2",339,"numeric",8,339,"numeric",8,"sq2","GIS","Nutrient retention capacity","ordinal","data","101","Soil Organic carbon, Soil texture, base saturation, cation exchange capacity of soil and of clay fraction",NA,NA
+"sq3",339,"numeric",8,339,"numeric",8,"sq3","GIS","Rooting conditions","ordinal","data","101","Soil textures, bulk density, coarse fragments, vertic soil properties and soil phases affecting root penetration and soil depth and soil volume",NA,NA
+"sq4",339,"numeric",8,339,"numeric",8,"sq4","GIS","Oxygen availability to roots","ordinal","data","101","Soil drainage and soil phases affecting soil drainage",NA,NA
+"sq5",339,"numeric",8,339,"numeric",8,"sq5","GIS","Excess salts.","ordinal","data","101","Soil salinity, soil sodicity and soil phases influencing salt conditions",NA,NA
+"sq6",339,"numeric",8,339,"numeric",8,"sq6","GIS","Toxicity","ordinal","data","101","Calcium carbonate and gypsum",NA,NA
+"sq7",339,"numeric",8,339,"numeric",8,"sq7","GIS","Workability (constraining field management)","ordinal","data","101","Soil texture, effective soil depth/volume, and soil phases constraining soil management (soil depth, rock outcrop, stoniness, gravel/concretions and hardpans)",NA,NA
+"dicgsh1a",339,"numeric",278,339,"numeric",278,"dicgsh1a","GIS","Distance to the coast line in km based on GSHHS","ordinal","data","102","Negative values show distance across land to coastline; Postive values show distance across water to coastline (very small islands have positive values)","Grids and descriptions obtained from http://worldgrids.org. Resolution 1 km gridcell.",NA
+"dicgsh1a.flag",339,"numeric",1,339,"numeric",1,"dicgsh1a.flag","GIS","Distance to the coast line in km based on GSHHS","ordinal","auxiliary","102","data quality flag--higher numbers are less accurate",NA,NA
+"etmnts2a",339,"numeric",331,339,"numeric",331,"etmnts2a","GIS","Long-term MODIS-estimated Evapotranspiration (MOD16) (mm/year)","ordinal","data","103",NA,"Grids and descriptions obtained from http://worldgrids.org. Resolution 1 km gridcell.",NA
+"etmnts2a.flag",339,"numeric",3,339,"numeric",3,"etmnts2a.flag","GIS","Long-term MODIS-estimated Evapotranspiration (MOD16) (mm/year)","ordinal","auxiliary","103","data quality flag--higher numbers are less accurate",NA,NA
+"g12igb3a",339,"numeric",17,339,"numeric",17,"g12igb3a","GIS","Land cover type 1 (IGBP) for year 2012","categorical","data","104",NA,"Grids and descriptions obtained from http://worldgrids.org. Resolution 1 km gridcell.",NA
+"g12igb3a.flag",339,"numeric",1,339,"numeric",1,"g12igb3a.flag","GIS","Land cover type 1 (IGBP) for year 2012","categorical","auxiliary","104","data quality flag--higher numbers are less accurate",NA,NA
+"twisre3a",339,"numeric",87,339,"numeric",87,"twisre3a","GIS","SAGA GIS Topographic wetness index","ordinal","data","105","Sorensen, R., Zinko, U., & Seibert, J. (2006). On the calculation of the topographic wetness index: evaluation of different methods based on field observations. Hydrol. Earth Syst. Sci., 10(1), 101-112. doi:10.5194/hess-10-101-2006","Grids and descriptions obtained from http://worldgrids.org. Resolution 1 km gridcell.",NA
+"twisre3a.flag",339,"numeric",2,339,"numeric",2,"twisre3a.flag","GIS","SAGA GIS Topographic wetness index","ordinal","auxiliary","105","data quality flag--higher numbers are less accurate",NA,NA
+"l3pobi3b",339,"numeric",7,339,"factor",7,"l3pobi3b","GIS","Physiographic landform units Level 3 (SCALA project)","categorical","data","106",NA,"Grids and descriptions obtained from http://worldgrids.org. Resolution 1 km gridcell.",NA
+"l3pobi3b.flag",339,"numeric",3,339,"numeric",3,"l3pobi3b.flag","GIS","Physiographic landform units Level 3 (SCALA project)","categorical","auxiliary","106","data quality flag--higher numbers are less accurate",NA,NA
+"l3pobi3b.navn",339,"character",7,339,"factor",7,"l3pobi3b.navn","GIS","Physiographic landform units Level 3 (SCALA project)","categorical","data","106","names of categories",NA,NA
+"opisre2a",339,"numeric",103,339,"numeric",103,"opisre2a","GIS","SAGA GIS Topopgraphic Openess Index","ordinal","data","107","Topographic openess developed by Yokoyama R, Shirasawa M and Pike RJ, 2002, Visualizing topography by Openness: A new applicationof image processing to digital elevation models. Photogrammetric Engineering and Remote Sensing, 68(3): 257-265.","Grids and descriptions obtained from http://worldgrids.org. Resolution 1 km gridcell.",NA
+"opisre2a.flag",339,"numeric",1,339,"numeric",1,"opisre2a.flag","GIS","SAGA GIS Topopgraphic Openess Index","ordinal","auxiliary","107","data quality flag--higher numbers are less accurate",NA,NA
+"geaisg3a",339,"numeric",40,339,"factor",40,"geaisg3a","GIS","Geological ages based on the surface geology","categorical","data","108",NA,"Grids and descriptions obtained from http://worldgrids.org. Resolution 1 km gridcell.",NA
+"geaisg3a.flag",339,"numeric",3,339,"numeric",3,"geaisg3a.flag","GIS","Geological ages based on the surface geology","categorical","auxiliary","108","data quality flag--higher numbers are less accurate",NA,NA
+"geaisg3a.navn",339,"character",40,339,"factor",40,"geaisg3a.navn","GIS","Geological ages based on the surface geology","categorical","data","108","names of categories",NA,NA
+"glcjrc3a",339,"numeric",21,339,"factor",21,"glcjrc3a","GIS","Global Land Cover map for the year 2000 (GLC2000)","categorical","data","109",NA,"Grids and descriptions obtained from http://worldgrids.org. Resolution 1 km gridcell.",NA
+"glcjrc3a.flag",339,"numeric",1,339,"numeric",1,"glcjrc3a.flag","GIS","Global Land Cover map for the year 2000 (GLC2000)","categorical","auxiliary","109","data quality flag--higher numbers are less accurate",NA,NA
+"glcjrc3a.navn",339,"character",21,339,"factor",21,"glcjrc3a.navn","GIS","Global Land Cover map for the year 2000 (GLC2000)","categorical","data","109","names of categories",NA,NA
+"inmsre3a",339,"numeric",19,339,"numeric",19,"inmsre3a","GIS","Mean potential incoming solar radiation (8-day average) derived in SAGA GIS","ordinal","data","110",NA,"Grids and descriptions obtained from http://worldgrids.org. Resolution 1 km gridcell.",NA
+"inmsre3a.flag",339,"numeric",2,339,"numeric",2,"inmsre3a.flag","GIS","Mean potential incoming solar radiation (8-day average) derived in SAGA GIS","ordinal","auxiliary","110","data quality flag--higher numbers are less accurate",NA,NA
+"inssre2a",339,"numeric",320,339,"numeric",320,"inssre2a","GIS","Standard deviation of the potential incoming solar radiation derived in SAGA GIS","ordinal","data","111",NA,"Grids and descriptions obtained from http://worldgrids.org. Resolution 1 km gridcell.",NA
+"inssre2a.flag",339,"numeric",3,339,"numeric",3,"inssre2a.flag","GIS","Standard deviation of the potential incoming solar radiation derived in SAGA GIS","ordinal","auxiliary","111","data quality flag--higher numbers are less accurate",NA,NA
+"evmmod2a",339,"numeric",329,339,"numeric",329,"evmmod2a","GIS","Mean value of the monthly MODIS EVI time series data","ordinal","data","112","Enhanced Vegetation Index: https://lpdaac.usgs.gov/products/modis_products_table/mod13q1","Grids and descriptions obtained from http://worldgrids.org. Resolution 1 km gridcell.",NA
+"evmmod2a.flag",339,"numeric",1,339,"numeric",1,"evmmod2a.flag","GIS","Mean value of the monthly MODIS EVI time series data","ordinal","auxiliary","112","data quality flag--higher numbers are less accurate",NA,NA
+"lammod3a",339,"numeric",49,339,"numeric",49,"lammod3a","GIS","Mean value of the monthly MODIS EVI time series data","ordinal","data","113","Leaf Area Index: https://lpdaac.usgs.gov/products/modis_products_table/mod15a2","Grids and descriptions obtained from http://worldgrids.org. Resolution 1 km gridcell.",NA
+"lammod3a.flag",339,"numeric",5,339,"numeric",5,"lammod3a.flag","GIS","Mean value of the monthly MODIS EVI time series data","ordinal","auxiliary","113","data quality flag--higher numbers are less accurate",NA,NA
+"anntotprecip",339,"numeric",10,339,"numeric",10,"anntotprecip","GIS","Average Annual Total Precipitation","ordinal","data","117","The total amount of precipitation that falls during an average year (1960 to 1990) in units of millimeters (mm3 per year / mm2 = mm / year).",NA,NA
+"anntotprecip.flag",339,"numeric",2,339,"numeric",2,"anntotprecip.flag","GIS","Average Annual Total Precipitation","ordinal","auxiliary","117","data quality flag--higher numbers are less accurate",NA,NA
+"avgannrh",339,"numeric",64,339,"numeric",64,"avgannrh","GIS","Average Annual Relative Humidity","ordinal","data","117","Relative humidity is defined as the ratio of the actual vapor pressure of water vapor to the saturation vapor pressure of water, in other words how much water is in the air divided by the most water that could possibly be there.",NA,NA
+"avgannrh.flag",339,"numeric",2,339,"numeric",2,"avgannrh.flag","GIS","Average Annual Relative Humidity","ordinal","auxiliary","117","data quality flag--higher numbers are less accurate",NA,NA
+"avgannrunoff",339,"numeric",197,339,"numeric",197,"avgannrunoff","GIS","The total volume of water running over the surface in a year-averaged over the gridcell.","ordinal","data","117","the volume of water running over this gridcell divided by the area of the gridcell itself (mm3 per year / mm2 over 1 yr = mm/yr)",NA,NA
+"avgannrunoff.flag",339,"numeric",4,339,"numeric",4,"avgannrunoff.flag","GIS","The total volume of water running over the surface in a year-averaged over the gridcell.","ordinal","auxiliary","117","data quality flag--higher numbers are less accurate",NA,NA
+"evapotrans",339,"numeric",328,339,"numeric",328,"evapotrans","GIS","Evapotranspiration","ordinal","data","114","The amount of water removed from the surface through evaporation (due to temperature, humidity, radiation...) and through transpiration (the process by which plants move water up from their roots and out through their leaves). Evapotranspiration can be used to estimate the amount of water the local vegetation needs to remain in equilibrium with the ground water supply.","Grids and variable descriptions are downloaded from the Atlas of the Biosphere, a product of the Center for Sustainability and the Global Environment (SAGE), part of the Nelson Institute for Environmental Studies at the University of Wisconsin - Madison (http://www.sage.wisc.edu/atlas/). Resolution is 30 arc minutes.",NA
+"evapotrans.flag",339,"numeric",4,339,"numeric",4,"evapotrans.flag","GIS","Evapotranspiration","ordinal","auxiliary","114","data quality flag--higher numbers are less accurate",NA,NA
+"gdd",339,"numeric",328,339,"numeric",328,"gdd","GIS","Growing Degree Days","ordinal","data","117","The Growing Degree Day (GDD) is based on the fact that if temperature is too hot or cold, plant growth will slow. GDD is calculated for a range specific to a particular plant or suite of plants. Taking corn as an example, it grows with a minimum temperature of 10?C and a maximum temperature of 30?C. So if one day the maximum temperature is 21?C and the minimum temperature is 15?C, the average temperature of that day was 18?C. To determine how many GDD were in that day, simply subtract the base temperature from the average temperature (18?C-10?C) remembering that this all happened on one day. Thus for this example, there were 8 GDD accumulated by the corn during that day. Had the base temperature been 5?C, there would have been 13 GDD accumulated. Annual GDD is the average number of GDD accumulated in a particular area under normal climatic conditions. In this dataset, a base temperature of 5?C was used to compute monthly GDD and those monthly values were then totaled to yield an annual number.","Grids and variable descriptions are downloaded from the Atlas of the Biosphere, a product of the Center for Sustainability and the Global Environment (SAGE), part of the Nelson Institute for Environmental Studies at the University of Wisconsin - Madison (http://www.sage.wisc.edu/atlas/). Resolution is 30 arc minutes.",NA
+"gdd.flag",339,"numeric",2,339,"numeric",2,"gdd.flag","GIS","Growing Degree Days","ordinal","auxiliary","117","data quality flag--higher numbers are less accurate",NA,NA
+"npp",339,"numeric",241,339,"numeric",241,"npp","GIS","Net Primary Productivity","ordinal","data","116","NPP is calculated by taking the gross primary productivity (the total amount of energy/mass taken in by the plant) and subtracting the plant's respiration (the total amount of energy/mass lost by the plant as it breathes).  NPP is measured in units of kg-Carbon per square meter per year, or the net amount of carbon the plants in an average square meter of the gridcell take up during an average year.","Grids and variable descriptions are downloaded from the Atlas of the Biosphere, a product of the Center for Sustainability and the Global Environment (SAGE), part of the Nelson Institute for Environmental Studies at the University of Wisconsin - Madison (http://www.sage.wisc.edu/atlas/). Resolution is 30 arc minutes.",NA
+"npp.flag",339,"numeric",3,339,"numeric",3,"npp.flag","GIS","Net Primary Productivity","ordinal","auxiliary","116","data quality flag--higher numbers are less accurate",NA,NA
+"pevapotrans",339,"numeric",325,339,"numeric",325,"pevapotrans","GIS","Potential evapotranspiration","ordinal","data","114","The amount of water that would be removed from the surface by evaporation and transpiration, if the amount of water already present were not a limiting factor. In other words, the potential evapotranspiration over the Sahara desert is very large because the amount of evaporation that could take place there is huge. However, because there isn't any water there to be evaporated, the evapotranspiration that actually takes place is quite small.",NA,NA
+"pevapotrans.flag",339,"numeric",4,339,"numeric",4,"pevapotrans.flag","GIS","Potential evapotranspiration","ordinal","auxiliary","114","data quality flag--higher numbers are less accurate",NA,NA
+"potentialveg",339,"numeric",13,339,"factor",13,"potentialveg","GIS","Potential Vegetation","categorical","data","115","Potential vegetation is the vegetation that would exist at a given location had human forms of land use never existed. In other words, if humans weren't around, this would be an accurate description of the planet's land cover.","Grids and variable descriptions are downloaded from the Atlas of the Biosphere, a product of the Center for Sustainability and the Global Environment (SAGE), part of the Nelson Institute for Environmental Studies at the University of Wisconsin - Madison (http://www.sage.wisc.edu/atlas/). Resolution is 30 arc minutes.",NA
+"potentialveg.flag",339,"numeric",4,339,"numeric",4,"potentialveg.flag","GIS","Potential Vegetation","categorical","auxiliary","115","data quality flag--higher numbers are less accurate",NA,NA
+"potentialveg.navn",339,"character",13,339,"factor",13,"potentialveg.navn","GIS","Potential Vegetation","categorical","data","115","names of categories",NA,NA
+"snowdepth",339,"numeric",178,339,"numeric",178,"snowdepth","GIS","Snow depth","ordinal","data","114","The average annual snow depth--natural log scale, range is from 10^-20mm (trace) to 10^10mm (greater than a kilometer).",NA,NA
+"snowdepth.flag",339,"numeric",5,339,"numeric",5,"snowdepth.flag","GIS","Snow depth","ordinal","auxiliary","114","data quality flag--higher numbers are less accurate",NA,NA
+"soilmoisture",339,"numeric",328,339,"numeric",328,"soilmoisture","GIS","Soil Moisture","ordinal","data","114","The average amount of water in the soil",NA,NA
+"soilmoisture.flag",339,"numeric",4,339,"numeric",4,"soilmoisture.flag","GIS","Soil Moisture","ordinal","auxiliary","114","data quality flag--higher numbers are less accurate",NA,NA
+"suit",339,"numeric",208,339,"numeric",208,"suit","GIS","Suitability for agriculture","ordinal","data","119","The fraction of each grid cell that is suitable to be used for agriculture. It is based on the temperature and soil conditions of each grid cell.","Grids and variable descriptions are downloaded from the Atlas of the Biosphere, a product of the Center for Sustainability and the Global Environment (SAGE), part of the Nelson Institute for Environmental Studies at the University of Wisconsin - Madison (http://www.sage.wisc.edu/atlas/). Resolution is 30 arc minutes.",NA
+"suit.flag",339,"numeric",4,339,"numeric",4,"suit.flag","GIS","Suitability for agriculture","ordinal","auxiliary","119",NA,NA,NA
+"eaid",207,"numeric",207,207,"numeric",207,"eaid","GIS","Ethnographic Atlas ID number, if society is in the EA","categorical","auxiliary","83",NA,NA,NA
+"lrbid",339,"numeric",339,339,"numeric",339,"lrbid","GIS","Binford foragers ID number, if society is in the LRB","categorical","auxiliary","83",NA,NA,NA
+"sccsid",37,"numeric",37,37,"numeric",37,"sccsid","GIS","Standard Cross Cultural Sample ID number, if society is in the SCCS","categorical","auxiliary","83",NA,NA,NA
+"wnaiid",90,"numeric",90,90,"numeric",90,"wnaiid","GIS","Western North American Indian ID number, if society is in the WNAI","categorical","auxiliary","83",NA,NA,NA
+"xcid",207,"numeric",207,207,"integer",207,"xcid","GIS","XC ID number, if society is in the XC","categorical","auxiliary","83",NA,NA,NA
+"awc",115,"character",115,115,"factor",115,"awc","GIS","Atlas of World Cultures ID number","categorical","auxiliary","100","assignments by Doug White",NA,NA
+"society",339,"character",339,339,"factor",339,"society","GIS","Ethnographic Atlas society name","categorical","auxiliary","1",NA,NA,NA
+"dxid",339,"numeric",339,339,"numeric",339,"dxid","GIS","Binford foragers ID number, if society is in the LRB","categorical","auxiliary","83",NA,NA,NA
