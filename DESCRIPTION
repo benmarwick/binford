@@ -1,6 +1,6 @@
 Package: binford
 Type: Package
-Title: Binford's hunter-gatherer data
+Title: Binford's Hunter-Gatherer Data
 Version: 0.1.0
 Authors@R: c(
     person("Marwick", "Ben", email = "benmarwick@gmail.com", role = c("aut", "cre")),
