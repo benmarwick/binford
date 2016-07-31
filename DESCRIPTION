@@ -3,10 +3,10 @@ Type: Package
 Title: Binford's Hunter-Gatherer Data
 Version: 0.1.0
 Authors@R: c(
-    person("Marwick", "Ben", email = "benmarwick@gmail.com", role = c("aut", "cre")),
-    person("Johnson", "Amber", email = "ajohnson@truman.edu", role = "aut"),
-    person("White", "Doug", email = "drwhite@uci.edu", role = "aut"),
-    person("Eff", "E. Anthon", email = "Anthon.Eff@mtsu.edu", role = "aut")
+    person("Ben", "Marwick", email = "benmarwick@gmail.com", role = c("aut", "cre")),
+    person("Amber", "Johnson", email = "ajohnson@truman.edu", role = "aut"),
+    person("Doug", "White", email = "drwhite@uci.edu", role = "aut"),
+    person("E. Anthon", "Eff", email = "Anthon.Eff@mtsu.edu", role = "aut")
     )
 Description: Binford's hunter-gatherer data includes more than 200 variables
     coding aspects of hunter-gatherer subsistence, mobility, and social organization
