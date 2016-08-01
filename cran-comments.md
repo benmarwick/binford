@@ -3,6 +3,14 @@
 * ubuntu 12.04 (on travis-ci), R 3.3.1
 * win-builder (devel and release)
 
+## initial CRAN submit (1 Aug 2016)
+
+* Kurt Hornik requests 'data-raw' be removed
+* '^data-raw$' now added to .Rbuildignore
+
+R CMD check results
+0 errors | 0 warnings | 0 notes
+
 ## R CMD check results (1 Aug 2016)
 
 0 errors | 0 warnings | 1 note
