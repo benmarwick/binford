@@ -20,4 +20,3 @@ Binford, Lewis R. 2001. Constructing Frames of Reference: An Analytical Method f
 Downloaded from the source url on 31 Jul 2016
 }
 \keyword{datasets}
-
