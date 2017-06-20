@@ -18,4 +18,4 @@ Suggests:
     dplyr
 URL: http://github.com/benmarwick/binford
 LazyData: TRUE
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
